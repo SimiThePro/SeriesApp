@@ -17,6 +17,7 @@ Overview::Overview(QWidget *parent) :
 
 
     ui->Series->addWidget(series);
+    ui->Series->setAlignment(Qt::AlignLeft);
 }
 
 Overview::~Overview()
