@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>827</width>
-    <height>592</height>
+    <width>832</width>
+    <height>621</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="maximumSize">
@@ -39,6 +42,13 @@
          <widget class="QPushButton" name="LibraryButton">
           <property name="text">
            <string>Library</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="AddButton">
+          <property name="text">
+           <string>Add</string>
           </property>
          </widget>
         </item>
@@ -81,7 +91,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>827</width>
+     <width>832</width>
      <height>21</height>
     </rect>
    </property>

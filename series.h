@@ -14,28 +14,33 @@ class Series : public QWidget
 
 public:
     explicit Series(QWidget *parent = nullptr);
-
+    Series(QString SeriesPath, QString SeriesIconPath, QString SeriesName = "", QWidget *parent = nullptr);
     ~Series();
 
+    void setButtonImage(const QString& filename);
+    QString getSeriesIconPath() const;
+    void setSeriesIconPath(const QString &newSeriesIconPath);
 
-
-    QPixmap getSeriesIcon() const;
-    void setSeriesIcon(QPixmap newSeriesIcon);
-
-    QUrl getSeriesPath() const;
-    void setSeriesPath(QUrl newSeriesPath);
+    QString getSeriesPath() const;
+    void setSeriesPath(const QString &newSeriesPath);
 
     QString getSeriesName() const;
     void setSeriesName(const QString &newSeriesName);
 
+protected:
+
+private slots:
+    void on_pushButton_pressed();
+
 private:
     Ui::Series *ui;
 
-    QPixmap SeriesIcon;
-    QUrl SeriesPath;
+    QString SeriesIconPath;
+    QString SeriesPath;
     QString SeriesName;
 
 
+    void SetButtonIcon(const QString& filename);
 };
 
 #endif // SERIES_H

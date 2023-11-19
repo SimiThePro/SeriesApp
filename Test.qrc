@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Data/Icons">
+        <file>Data/Icons/UdemyCourse.jpg</file>
+        <file>Data/Icons/Ultimate.jpg</file>
+    </qresource>
+</RCC>

@@ -1,4 +1,5 @@
 #include "overview.h"
+#include "mainwindow.h"
 #include "ui_overview.h"
 
 #include <Series.h>
@@ -9,18 +10,23 @@ Overview::Overview(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    Series* series = new Series(this);
-    series->setSeriesName("RPG Top Down");
-    series->setSeriesPath(QUrl::fromLocalFile("D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG"));
-    series->setSeriesIcon(QPixmap(static_cast<QString>(PROJECT_PATH) + "Data/Icons/UdemyCourse"));
+    m_MainWindow = qobject_cast<MainWindow*>(parent);
 
 
 
-    ui->Series->addWidget(series);
-    ui->Series->setAlignment(Qt::AlignLeft);
 }
 
 Overview::~Overview()
 {
     delete ui;
+}
+
+void Overview::AddSeries(Series *series)
+{
+
+    if (!series) return;
+    Series* NewSeries = new Series(series->getSeriesPath(),series->getSeriesIconPath(),series->getSeriesName(),this);
+
+    m_MainWindow->getSeriesList().append(NewSeries);
+    ui->Series->addWidget(series,0,Qt::AlignLeft);
 }

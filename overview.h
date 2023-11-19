@@ -15,8 +15,16 @@ public:
     explicit Overview(QWidget *parent = nullptr);
     ~Overview();
 
+    void AddSeries(class Series* series);
+
+protected:
+
+
+
 private:
     Ui::Overview *ui;
+
+    class MainWindow* m_MainWindow;
 };
 
 #endif // OVERVIEW_H

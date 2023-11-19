@@ -19,16 +19,23 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    class Overview* getOverviewWidget() const {return OverviewWidget;}
+    QVector<class Series*> getSeriesList() const {return SeriesList;}
+
 private slots:
     void on_OverviewButton_clicked();
 
     void on_LibraryButton_clicked();
+
+    void on_AddButton_pressed();
 
 private:
     Ui::MainWindow *ui;
 
     class Overview* OverviewWidget;
     class Library* LibraryWidget;
+
+    QVector<class Series*> SeriesList;
 };
 
 #endif // MAINWINDOW_H

@@ -11,6 +11,7 @@ CONFIG += c++17
 DEFINES += PROJECT_PATH=\"\\\"$${_PRO_FILE_PWD_}/\\\"\"
 
 SOURCES += \
+    addseries.cpp \
     library.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -18,12 +19,14 @@ SOURCES += \
     series.cpp
 
 HEADERS += \
+    addseries.h \
     library.h \
     mainwindow.h \
     overview.h \
     series.h
 
 FORMS += \
+    addseries.ui \
     library.ui \
     mainwindow.ui \
     overview.ui \
@@ -33,3 +36,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    Test.qrc

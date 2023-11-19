@@ -10,6 +10,12 @@
     <height>200</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>150</width>
+    <height>150</height>
+   </size>
+  </property>
   <property name="maximumSize">
    <size>
     <width>200</width>
@@ -39,6 +45,18 @@
        <width>0</width>
        <height>0</height>
       </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover {
+border: 2px solid rgb(0, 0, 0);
+border-radius: 5px;
+}
+QPushButton{
+	background-image: url(:/Data/Icons/Data/Icons/UdemyCourse.jpg);
+	border-radius: 5px;
+	background-position: center;
+}
+</string>
      </property>
      <property name="text">
       <string/>
