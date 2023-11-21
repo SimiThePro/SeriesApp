@@ -20,8 +20,9 @@ public:
     ~MainWindow();
 
     class Overview* getOverviewWidget() const {return OverviewWidget;}
-    QVector<class Series*> getSeriesList() const {return SeriesList;}
+    QVector<class Series*> getSeriesList() const {return m_SeriesList;}
 
+    void AddSeries(Series* newSeries);
 private slots:
     void on_OverviewButton_clicked();
 
@@ -35,7 +36,7 @@ private:
     class Overview* OverviewWidget;
     class Library* LibraryWidget;
 
-    QVector<class Series*> SeriesList;
+    QList<class Series*> m_SeriesList;
 };
 
 #endif // MAINWINDOW_H

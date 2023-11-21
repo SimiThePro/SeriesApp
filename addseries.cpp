@@ -3,6 +3,7 @@
 #include "overview.h"
 #include "ui_addseries.h"
 
+#include <QErrorMessage>
 #include <QFileDialog>
 #include <Series.h>
 
@@ -41,6 +42,8 @@ void AddSeries::on_buttonBox_accepted()
 {
 
     if (!QUrl::fromLocalFile(ui->SeriesPathLE->text()).isValid()) {
+        QErrorMessage* Error = new QErrorMessage(this);
+        Error->showMessage("The File is not Valid");
         return;
     }
 
@@ -51,13 +54,14 @@ void AddSeries::on_buttonBox_accepted()
     }
     m_Series->setSeriesPath(SeriesPath);
     QString ImagePath = ui->ImageLE->text();
-    if (ImagePath.at(0) == '/'){
-        ImagePath = ImagePath.sliced(1,ImagePath.size()-1);
+    if (!ImagePath.isEmpty()){
+        if (ImagePath.at(0) == '/'){
+            ImagePath = ImagePath.sliced(1,ImagePath.size()-1);
+        }
+        m_Series->setSeriesIconPath(ImagePath);
     }
-    m_Series->setSeriesIconPath(ImagePath);
 
-
-    m_MainWindow->getOverviewWidget()->AddSeries(m_Series);
+    m_MainWindow->AddSeries(m_Series);
 }
 
 

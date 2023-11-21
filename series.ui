@@ -52,9 +52,8 @@ border: 2px solid rgb(0, 0, 0);
 border-radius: 5px;
 }
 QPushButton{
-	background-image: url(:/Data/Icons/Data/Icons/UdemyCourse.jpg);
+	border-image: url(:/Data/Icons/Data/Icons/UdemyCourse.jpg);
 	border-radius: 5px;
-	background-position: center;
 }
 </string>
      </property>

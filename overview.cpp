@@ -21,12 +21,7 @@ Overview::~Overview()
     delete ui;
 }
 
-void Overview::AddSeries(Series *series)
+void Overview::AddSeriesToLayout(Series* series)
 {
-
-    if (!series) return;
-    Series* NewSeries = new Series(series->getSeriesPath(),series->getSeriesIconPath(),series->getSeriesName(),this);
-
-    m_MainWindow->getSeriesList().append(NewSeries);
     ui->Series->addWidget(series,0,Qt::AlignLeft);
 }

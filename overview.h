@@ -15,7 +15,7 @@ public:
     explicit Overview(QWidget *parent = nullptr);
     ~Overview();
 
-    void AddSeries(class Series* series);
+    void AddSeriesToLayout(class Series* series);
 
 protected:
 

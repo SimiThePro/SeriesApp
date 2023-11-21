@@ -15,6 +15,8 @@ public:
     explicit Library(QWidget *parent = nullptr);
     ~Library();
 
+    void AddSeriesToLayout(class Series* newSeries);
+
 private:
     Ui::Library *ui;
 };

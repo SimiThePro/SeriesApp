@@ -6,6 +6,7 @@
 #include <overview.h>
 #include <QScrollBar>
 #include <AddSeries.h>
+#include <Series.h>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -16,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
     OverviewWidget = new Overview(this);
     LibraryWidget = new Library(this);
 
-    SeriesList = QVector<Series*>{};
+    m_SeriesList = QList<Series*>{};
 
     ui->stackedWidget->addWidget(OverviewWidget);
     ui->stackedWidget->addWidget(LibraryWidget);
@@ -30,10 +31,21 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::AddSeries(Series *newSeries)
+{
+    if (!newSeries) return;
+
+    m_SeriesList.append(newSeries);
+
+    LibraryWidget->AddSeriesToLayout(newSeries);
+
+}
+
 
 
 void MainWindow::on_OverviewButton_clicked()
 {
+
     ui->stackedWidget->setCurrentWidget(OverviewWidget);
 }
 
@@ -46,7 +58,7 @@ void MainWindow::on_LibraryButton_clicked()
 
 void MainWindow::on_AddButton_pressed()
 {
-    AddSeries* AddSeriesWidget = new AddSeries(this);
+    class AddSeries* AddSeriesWidget = new class AddSeries(this);
 
     AddSeriesWidget->exec();
 }

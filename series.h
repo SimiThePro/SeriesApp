@@ -27,6 +27,7 @@ public:
     QString getSeriesName() const;
     void setSeriesName(const QString &newSeriesName);
 
+    QString PrintFiles();
 protected:
 
 private slots:
@@ -39,8 +40,22 @@ private:
     QString SeriesPath;
     QString SeriesName;
 
+    QList<class Section*> m_Sections;
 
     void SetButtonIcon(const QString& filename);
 };
+
+class Section{
+public:
+    Section(class QDir dir);
+
+    QStringList getVideoFiles() const {return m_VideoFiles;}
+
+private:
+
+    QStringList m_VideoFiles;
+
+};
+
 
 #endif // SERIES_H
