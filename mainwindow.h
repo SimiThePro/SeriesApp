@@ -23,6 +23,8 @@ public:
     QVector<class Series*> getSeriesList() const {return m_SeriesList;}
 
     void AddSeries(Series* newSeries);
+    void SeriesPressed(Series* pressedSeries);
+
 private slots:
     void on_OverviewButton_clicked();
 
@@ -35,6 +37,7 @@ private:
 
     class Overview* OverviewWidget;
     class Library* LibraryWidget;
+    class SeriesOverview* m_SeriesOverviewWidget;
 
     QList<class Series*> m_SeriesList;
 };

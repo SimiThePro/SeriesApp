@@ -60,6 +60,7 @@ void AddSeries::on_buttonBox_accepted()
         }
         m_Series->setSeriesIconPath(ImagePath);
     }
+    m_Series->MainWindowParent(m_MainWindow);
 
     m_MainWindow->AddSeries(m_Series);
 }

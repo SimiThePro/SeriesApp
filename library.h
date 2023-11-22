@@ -17,8 +17,11 @@ public:
 
     void AddSeriesToLayout(class Series* newSeries);
 
+    void SeriesPressed(Series* pressedSeries);
 private:
     Ui::Library *ui;
+
+    class MainWindow* m_MainWindow;
 };
 
 #endif // LIBRARY_H

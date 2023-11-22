@@ -4,6 +4,8 @@
 #include "qurl.h"
 #include <QWidget>
 
+
+class QFileInfo;
 namespace Ui {
 class Series;
 }
@@ -28,6 +30,10 @@ public:
     void setSeriesName(const QString &newSeriesName);
 
     QString PrintFiles();
+
+    QList<class Section*> getSections() const {return m_Sections;}
+
+    void MainWindowParent(class MainWindow* MW) {this->m_MainWindow = MW;}
 protected:
 
 private slots:
@@ -36,11 +42,15 @@ private slots:
 private:
     Ui::Series *ui;
 
+    class MainWindow* m_MainWindow;
+
     QString SeriesIconPath;
     QString SeriesPath;
     QString SeriesName;
 
     QList<class Section*> m_Sections;
+
+    int m_SectionNumberIndex = 0;
 
     void SetButtonIcon(const QString& filename);
 };
@@ -51,8 +61,12 @@ public:
 
     QStringList getVideoFiles() const {return m_VideoFiles;}
 
+    QString getSectionName() const {return m_SectionName;}
+
+
 private:
 
+    QString m_SectionName;
     QStringList m_VideoFiles;
 
 };

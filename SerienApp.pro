@@ -16,21 +16,24 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     overview.cpp \
-    series.cpp
+    series.cpp \
+    seriesoverview.cpp
 
 HEADERS += \
     addseries.h \
     library.h \
     mainwindow.h \
     overview.h \
-    series.h
+    series.h \
+    seriesoverview.h
 
 FORMS += \
     addseries.ui \
     library.ui \
     mainwindow.ui \
     overview.ui \
-    series.ui
+    series.ui \
+    seriesoverview.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
