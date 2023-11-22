@@ -8,6 +8,7 @@
 #include <QDirIterator>
 #include <QStackedLayout>
 #include <QString>
+#include <qbuttongroup.h>
 
 Series::Series(QWidget *parent) :
     QWidget(parent),
@@ -224,11 +225,23 @@ Section::Section(QDir dir)
                   return i1 < i2;
               });
 
-
-
-
     for (auto& a : fileList){
         m_VideoFiles.append(a.filePath());
     }
 
+    m_FileList = fileList;
+
+}
+
+void Section::SetButtonGroup(QButtonGroup *ButtonGroup)
+{
+    m_ButtonGroup = ButtonGroup;
+    connect(m_ButtonGroup,SIGNAL(buttonPressed(QAbstractButton*)),this,SLOT(buttonPressed(QAbstractButton*)));
+}
+
+void Section::buttonPressed(QAbstractButton *button)
+{
+    int index =  (m_ButtonGroup->id(button) * -1) -2;
+
+    qInfo() << m_FileList[index].absoluteFilePath();
 }

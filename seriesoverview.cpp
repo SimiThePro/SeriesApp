@@ -1,5 +1,7 @@
 #include "seriesoverview.h"
+#include <QButtonGroup>
 #include <QFileInfo>
+#include <QPushButton>
 #include <Series.h>
 #include <ui_seriesoverview.h>
 
@@ -40,13 +42,20 @@ void SeriesOverview::SetSeries(Series *series)
 
     QList<Section*> Sections = series->getSections();
 
+
     for (Section* s : Sections){
+        QButtonGroup* btngroup = new QButtonGroup(this);
         ui->Sections->addItem(s->getSectionName());
         QWidget* page = new QWidget;
         QVBoxLayout* layout = new QVBoxLayout(page);
-        for (const QString& e : s->getVideoFiles()){
-            layout->addWidget(new QLabel(e));
+        for (const QFileInfo& e : s->getFileList()){
+
+            QPushButton* btn = new QPushButton(this);
+            btn->setText(e.completeBaseName());
+            btngroup->addButton(btn);
+            layout->addWidget(btn);
         }
+        s->SetButtonGroup(btngroup);
         ui->stackedWidget->addWidget(page);
     }
 }

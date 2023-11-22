@@ -11,9 +11,6 @@ Overview::Overview(QWidget *parent) :
     ui->setupUi(this);
 
     m_MainWindow = qobject_cast<MainWindow*>(parent);
-
-
-
 }
 
 Overview::~Overview()

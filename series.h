@@ -2,6 +2,8 @@
 #define SERIES_H
 
 #include "qurl.h"
+#include <QFileInfo>
+#include <QList>
 #include <QWidget>
 
 
@@ -55,7 +57,9 @@ private:
     void SetButtonIcon(const QString& filename);
 };
 
-class Section{
+class Section : public QObject{
+
+   Q_OBJECT
 public:
     Section(class QDir dir);
 
@@ -63,12 +67,20 @@ public:
 
     QString getSectionName() const {return m_SectionName;}
 
+    QList<QFileInfo> getFileList() {return m_FileList;}
 
+    void SetButtonGroup(class QButtonGroup* ButtonGroup);
 private:
 
     QString m_SectionName;
     QStringList m_VideoFiles;
 
+    class QButtonGroup* m_ButtonGroup;
+
+    QVector<QFileInfo> m_FileList;
+
+private slots:
+    void buttonPressed(class QAbstractButton *button);
 };
 
 
