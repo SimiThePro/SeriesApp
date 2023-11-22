@@ -61,7 +61,7 @@ class Section : public QObject{
 
    Q_OBJECT
 public:
-    Section(class QDir dir);
+    Section(class QDir dir, class MainWindow* mainWindow);
 
     QStringList getVideoFiles() const {return m_VideoFiles;}
 
@@ -72,6 +72,7 @@ public:
     void SetButtonGroup(class QButtonGroup* ButtonGroup);
 private:
 
+    MainWindow* m_MainWindow;
     QString m_SectionName;
     QStringList m_VideoFiles;
 

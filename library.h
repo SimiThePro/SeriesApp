@@ -18,6 +18,7 @@ public:
     void AddSeriesToLayout(class Series* newSeries);
 
     void SeriesPressed(Series* pressedSeries);
+
 private:
     Ui::Library *ui;
 

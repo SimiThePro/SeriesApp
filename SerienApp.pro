@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui multimedia multimediawidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -17,7 +17,8 @@ SOURCES += \
     mainwindow.cpp \
     overview.cpp \
     series.cpp \
-    seriesoverview.cpp
+    seriesoverview.cpp \
+    videoplayer.cpp
 
 HEADERS += \
     addseries.h \
@@ -25,7 +26,8 @@ HEADERS += \
     mainwindow.h \
     overview.h \
     series.h \
-    seriesoverview.h
+    seriesoverview.h \
+    videoplayer.h
 
 FORMS += \
     addseries.ui \
@@ -33,7 +35,8 @@ FORMS += \
     mainwindow.ui \
     overview.ui \
     series.ui \
-    seriesoverview.ui
+    seriesoverview.ui \
+    videoplayer.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

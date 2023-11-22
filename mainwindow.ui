@@ -46,6 +46,13 @@
          </widget>
         </item>
         <item>
+         <widget class="QPushButton" name="VideoPlayerButton">
+          <property name="text">
+           <string>Video Player</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QPushButton" name="AddButton">
           <property name="text">
            <string>Add</string>

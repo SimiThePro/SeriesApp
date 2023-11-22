@@ -15,7 +15,7 @@ AddSeries::AddSeries(QWidget *parent) :
 
     m_MainWindow = qobject_cast<MainWindow*>(parent);
 
-    m_Series = new Series();
+    m_Series = new Series(parent);
 
     ui->SeriesNameLE->setPlaceholderText("Name");
     ui->SeriesPathLE->setPlaceholderText("Path");
@@ -60,6 +60,7 @@ void AddSeries::on_buttonBox_accepted()
         }
         m_Series->setSeriesIconPath(ImagePath);
     }
+
     m_Series->MainWindowParent(m_MainWindow);
 
     m_MainWindow->AddSeries(m_Series);

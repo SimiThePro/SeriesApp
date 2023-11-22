@@ -8,6 +8,7 @@
 #include <AddSeries.h>
 #include <Series.h>
 #include <SeriesOverview.h>
+#include <VideoPlayer.h>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -18,13 +19,14 @@ MainWindow::MainWindow(QWidget *parent)
     OverviewWidget = new Overview(this);
     LibraryWidget = new Library(this);
     m_SeriesOverviewWidget = new SeriesOverview(this);
-
+    m_VideoPlayerWidget = new VideoPlayer(this);
 
     m_SeriesList = QList<Series*>{};
 
     ui->stackedWidget->addWidget(OverviewWidget);
     ui->stackedWidget->addWidget(LibraryWidget);
     ui->stackedWidget->addWidget(m_SeriesOverviewWidget);
+    ui->stackedWidget->addWidget(m_VideoPlayerWidget);
     ui->stackedWidget->setCurrentWidget(OverviewWidget);
 
 }
@@ -46,8 +48,16 @@ void MainWindow::AddSeries(Series *newSeries)
 
 void MainWindow::SeriesPressed(Series *pressedSeries)
 {
+    pressedSeries->MainWindowParent(this);
     m_SeriesOverviewWidget->SetSeries(pressedSeries);
     ui->stackedWidget->setCurrentWidget(m_SeriesOverviewWidget);
+}
+
+void MainWindow::SeriesSelected(const QString &Url)
+{
+
+    m_VideoPlayerWidget->SetVideo(Url);
+    ui->stackedWidget->setCurrentWidget(m_VideoPlayerWidget);
 }
 
 
@@ -70,5 +80,11 @@ void MainWindow::on_AddButton_pressed()
     class AddSeries* AddSeriesWidget = new class AddSeries(this);
 
     AddSeriesWidget->exec();
+}
+
+
+void MainWindow::on_VideoPlayerButton_pressed()
+{
+    ui->stackedWidget->setCurrentWidget(m_VideoPlayerWidget);
 }
 

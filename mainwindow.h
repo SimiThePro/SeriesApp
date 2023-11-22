@@ -24,6 +24,7 @@ public:
 
     void AddSeries(Series* newSeries);
     void SeriesPressed(Series* pressedSeries);
+    void SeriesSelected(const QString& Url);
 
 private slots:
     void on_OverviewButton_clicked();
@@ -32,12 +33,15 @@ private slots:
 
     void on_AddButton_pressed();
 
+    void on_VideoPlayerButton_pressed();
+
 private:
     Ui::MainWindow *ui;
 
     class Overview* OverviewWidget;
     class Library* LibraryWidget;
     class SeriesOverview* m_SeriesOverviewWidget;
+    class VideoPlayer* m_VideoPlayerWidget;
 
     QList<class Series*> m_SeriesList;
 };

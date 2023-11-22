@@ -18,7 +18,7 @@ Series::Series(QWidget *parent) :
 
     m_MainWindow = qobject_cast<MainWindow*>(parent);
 
-    if (m_MainWindow == nullptr) qInfo() << "Error";
+
 }
 
 Series::Series(QString SeriesPath, QString SeriesIconPath, QString SeriesName, QWidget *parent)
@@ -29,6 +29,7 @@ Series::Series(QString SeriesPath, QString SeriesIconPath, QString SeriesName, Q
     ui->setupUi(this);
 
     m_MainWindow = qobject_cast<MainWindow*>(parent);
+
 
     if (SeriesName.isEmpty()){
         //TODO
@@ -133,7 +134,7 @@ void Series::setSeriesPath(const QString &newSeriesPath)
 
 
     for (auto& info : fileList){
-        m_Sections.append(new Section(QDir(info.filePath())));
+        m_Sections.append(new Section(QDir(info.filePath()),m_MainWindow));
     }
 
 
@@ -177,10 +178,10 @@ void Series::setButtonImage(const QString &filename)
 
 //**Section***************
 
-Section::Section(QDir dir)
+Section::Section(QDir dir, MainWindow* mainWindow)
 {
     m_SectionName = dir.dirName();
-
+    m_MainWindow = mainWindow;
     QList<QFileInfo> fileList = dir.entryInfoList(QStringList() << "*.mp4",QDir::NoFilter,QDir::Name);
 
     int EpiodesNumberIndex = 0;
@@ -243,5 +244,6 @@ void Section::buttonPressed(QAbstractButton *button)
 {
     int index =  (m_ButtonGroup->id(button) * -1) -2;
 
-    qInfo() << m_FileList[index].absoluteFilePath();
+    m_MainWindow->SeriesSelected(m_FileList[index].absoluteFilePath());
+
 }
