@@ -22,6 +22,8 @@ public:
 private:
     Ui::Library *ui;
 
+    int m_countElementsWidth, m_countElementsHeight;
+
     class MainWindow* m_MainWindow;
 };
 

@@ -1,0 +1,1664 @@
+[
+    {
+        "IconPath": "",
+        "Sections": [
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction/01. Introduction.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "01. Introduction"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/01. Project Creation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/02. Setting up Version Control.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/03. The Base Character Class.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/04. Player and Enemy Characters.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/05. Character Blueprint Setup.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/06. Animation Blueprints.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/07. Enhanced Input.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/08. Aura Player Controller.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/09. Movement Input.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/10. Game Mode.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/11. Enemy Interface.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/12. Highlight Enemies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/13. Post Process Highlight.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "02. Project Creation"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/01. The Gameplay Ability System.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/02. The Main Parts of GAS.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/03. The Player State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/04. Ability System Component and Attribute Set.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/05. GAS in Multiplayer.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/06. Constructing the ASC and AS.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/07. Replication Mode.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/03. Intro to the Gameplay Ability System/08. Init Ability Actor Info.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "03. Intro to the Gameplay Ability System"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/04. Attributes/01. Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/04. Attributes/02. Health and Mana.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/04. Attributes/03. Attribute Accessors.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/04. Attributes/04. Effect Actor.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "04. Attributes"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/01. Game UI Architecture.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/02. Aura User Widget and Widget Controller.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/03. Globe Progress Bar.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/04. Health Globe.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/05. Aura HUD.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/06. Overlay Widget Controller.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/07. Broadcasting Initial Values.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/08. Listening for Attribute Changes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/05. RPG Game UI/09. Callbacks for Mana Changes.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "05. RPG Game UI"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/01. Gameplay Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/02. Effect Actor Improved.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/03. Instant Gameplay Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/04. Duration Gameplay Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/05. Periodic Gameplay Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/06. Effect Stacking.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/07. Infinite Gameplay Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/08. Instant and Duration Application Policy.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/09. Infinite Effect Application and Removal.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/10. PreAttributeChange.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/11. PostGameplayEffectExecute.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/06. Gameplay Effects/12. Curve Tables for Scalable Floats.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "06. Gameplay Effects"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/01. Gameplay Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/02. Creating Gameplay Tags in the Editor.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/03. Creating Gameplay Tags from Data Tables.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/04. Apply Gameplay Tags with Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/05. Gameplay Effect Delegates.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/06. Get All Asset Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/07. Broadcasting Effect Asset Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/08. UI Widget Data Table.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/09. Retrieving Rows from Data Tables.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/10. Broadcasting Data Table Rows.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/11. Message Widget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/12. Animating the Message Widget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/13. Replacing Callbacks with Lambdas.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/14. Ghost Globe.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/07. Gameplay Tags/15. Properly Clamping Attributes.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "07. Gameplay Tags"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/01. Initialize Attributes from a Data Table.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/02. Initialize Attributes with Gameplay Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/03. Attribute Based Modifiers.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/04. Modifier Order of Operations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/05. Modifier Coefficients.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/06. Secondary Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/07. Derived Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/08. Custom Calculations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/09. Player Level and Combat Interface.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/10. Modifier Magnitude Calculations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/08. RPG Attributes/11. Initializing Vital Attributes.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "08. RPG Attributes"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/01. Attribute Menu - Game Plan.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/02. Attribute Menu - Framed Value.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/03. Attribute Menu - Text Value Row.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/04. Attribute Menu - Text Value Button Row.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/05. Attribute Menu - Construction.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/06. Button Widget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/07. Wide Button Widget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/08. Opening the Attribute Menu.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/09. Closing the Attribute Menu.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/10. Plan for Displaying Attribute Data.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/11. Gameplay Tags Singleton.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/12. Aura Asset Manager.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/13. Native Gameplay Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/14. Attribute Info Data Asset.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/15. Attribute Menu Widget Controller.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/16. Aura Ability System Blueprint Library.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/17. Constructing the Attribute Menu Widget Controller.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/18. Attribute Info Delegate.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/19. Widget Attribute Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/20. Mapping Tags to Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/09. Attribute Menu/21. Responding to Attribute Changes.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "09. Attribute Menu"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/01. Gameplay Abilities.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/02. Granting Abilities.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/03. Settings on Gameplay Abilities.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/04. Input Config Data Asset.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/05. Aura Input Component.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/06. Callbacks for Ability Input.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/07. Activating Abilities.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/08. Click To Move.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/09. Setting Up Click to Move.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/10. Setting Up Auto Running.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/11. Implementing Auto Running.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/12. Code Clean Up.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/13. Aura Projectile.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/14. Aura Projectile Spell.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/10. Gameplay Abilities/15. Spawning Projectiles.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "10. Gameplay Abilities"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/01. Ability Tasks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/02. Sending Gameplay Events.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/03. Spawn FireBolt from Event.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/04. Custom Ability Tasks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/05. Target Data.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/06. Send Mouse Cursor Data.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/07. Receiving Target Data.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/08. Prediction in GAS.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/09. Orienting the Projectile.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/10. Motion Warping.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/11. Projectile Impact.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/12. Projectile Collision Channel.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/13. Projectile Gameplay Effect.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/14. Enemy Health Bar.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/11. Ability Tasks/15. Ghost Bar.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "11. Ability Tasks"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/12. RPG Character Classes/01. RPG Character Classes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/12. RPG Character Classes/02. Character Class Info.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/12. RPG Character Classes/03. Default Attribute Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/12. RPG Character Classes/04. Curve Tables - CSV and JSON.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/12. RPG Character Classes/05. Initializing Enemy Attributes.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "12. RPG Character Classes"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/01. Meta Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/02. Damage Meta Attribute.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/03. Set By Caller Magnitude.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/04. Ability Damage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/05. Enemy Hit React.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/06. Activating the Enemy Hit React Ability.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/07. Enemy Death.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/08. Dissolve Effect.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/09. Floating Text Widget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/10. Showing Damage Text.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/11. Execution Calculations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/12. Damage Execution Calculation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/13. ExecCalcs - Capturing Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/14. Implementing Block Chance.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/15. Implementing Armor and Armor Penetration.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/16. Damage Calculation Coefficients.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/13. Damage/17. Implementing Critical Hits.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "13. Damage"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/01. The Gameplay Effect Context.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/02. Custom Gameplay Effect Context.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/03. NetSerialize.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/04. Implementing Net Serialize.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/05. Struct Ops Type Traits.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/06. Aura Ability System Globals.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/07. Using a Custom Effect Context.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/08. Floating Text Color.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/09. Hit Message.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/10. Damage Types.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/11. Mapping Damage Types to Resistances.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/12. Resistance Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/13. Resistance Damage Reduction.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/14. Advanced Damage Techniques/14. Multiplayer Test.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "14. Advanced Damage Techniques"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/01. Enemy AI Setup.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/02. AI Controller Blackboard and Behavior Tree.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/03. Behavior Tree Service.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/04. Blackboard Keys.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/05. Finding the Nearest Player.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/06. AI and Effect Actors.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/07. Behavior Tree Decorators.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/08. Attack Behavior Tree Task.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/09. Find New Location Around Target.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/10. Environment Query System.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/11. Environment Queries.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/12. EQS Tests.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/13. Distance Test.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/15. Enemy AI/14. Using EQS Queries in Behavior Trees.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "15. Enemy AI"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/01. Melee Attack Ability.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/02. Attack Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/03. Combat Target.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/04. Melee Attack Gameplay Event.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/05. Get Live Players Within Radius.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/06. Causing Melee Damage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/07. Multiplayer Melee Test.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/08. Montage Gameplay Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/09. Tagged Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/10. Multiple Attack Sockets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/11. Ghoul Enemy.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/12. Ghoul Attack Montages.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/16. Enemy Melee Attacks/13. Melee Polish.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "16. Enemy Melee Attacks"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/01. Ranged Attack.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/02. Rock Projectile.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/03. Ranged Damage Curve.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/04. Granting Ranged Attacks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/05. Slingshot Attack Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/06. Playing the Ranged Attack Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/07. Spawning the Rock Projectile.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/08. Slingshot Animation Blueprint.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/17. Enemy Ranged Attacks/09. Slingshot Attack Montage.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "17. Enemy Ranged Attacks"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/18. Enemy Spell Attacks/01. Goblin Shaman.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/18. Enemy Spell Attacks/02. Shaman Attack Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/18. Enemy Spell Attacks/03. Shaman Attack Ability.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/18. Enemy Spell Attacks/04. Dead Blackboard Key.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/18. Enemy Spell Attacks/05. Enemies Multiplayer Testing.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "18. Enemy Spell Attacks"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/01. Goblin Spear - Sound Notifies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/02. Impact Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/03. Melee Impact Gameplay Cue.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/04. Montage and Socket Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/05. Goblin Spear - Hurt and Death Sounds.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/06. Goblin Slingshot - Sound Notifies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/07. Rock Impact Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/08. Goblin Shaman - Sound Notifies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/09. Ghoul - Sound Notifies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/10. Ghoul - Swipe Trail.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/11. Demon Blueprint.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/12. Demon Melee Attack.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/13. Demon Ranged Attack.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/14. Demon - Sound Notifies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/15. Demon - Dissolve Effect.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/16. Shaman Summon Locations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/17. Async Spawn Times.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/18. Summoning Particle Effect.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/19. Select Minion Class at Random.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/20. Minion Summon Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/21. Minion Count.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/22. Elementalist Behavior Tree.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/23. Elementalist Attack Task.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/24. Decrementing Minion Count.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/25. Adding Juice with Tweening.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/19. Enemy Finishing Touches/26. Enemies Final Polish.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "19. Enemy Finishing Touches"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/20. Level Tweaks/01. Level Lighting and Post Process.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/20. Level Tweaks/02. Texture Streaming Pool Over Budget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/20. Level Tweaks/03. Flame Pillar Actor.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/20. Level Tweaks/04. Fade Actor.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/20. Level Tweaks/05. Fading Out Obstructing Geometry.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "20. Level Tweaks"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/01. Health Mana Spells Widget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/02. Spell Globe.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/03. Adding Spell Globes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/04. XP Bar.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/05. Ability Info Data Asset.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/06. Initialize Overlay Startup Abilities.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/07. For Each Ability Delegate.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/08. Binding Widget Events to the Ability Info Delegate.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/09. Gameplay Ability Cost.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/10. Gameplay Ability Cooldown.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/11. Cooldown Async Task.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/12. Cooldown Tags in Ability Info.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/13. Showing Cooldown Time in the HUD.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/21. Cost and Cooldown/14. Modeling Mode.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "21. Cost and Cooldown"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/01. Experience and Leveling Up.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/02. Level Up Info Data Asset.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/03. Adding XP to the Player State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/04. Listening for XP Changes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/05. Awarding XP Game Plan.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/06. XP Reward for Enemies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/07. Incoming XP Meta Attribute.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/08. Passively Listening for Events.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/09. Sending XP Events.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/10. Showing XP in the HUD.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/11. Level Up Interface Function.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/12. Leveling Up.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/13. Showing Level in the HUD.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/14. Level Up Niagara System.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/22. Experience and Leveling Up/15. Level Up HUD Message.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "22. Experience and Leveling Up"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/23. Attribute Points/01. Attribute Points Member Variable.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/23. Attribute Points/02. Showing Attribute Points in the HUD.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/23. Attribute Points/03. Attribute Upgrade Buttons.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/23. Attribute Points/04. Upgrading Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/23. Attribute Points/05. Top Off Our Fluids.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/23. Attribute Points/06. Attribute Menu Polish.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "23. Attribute Points"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/01. Spell Menu Design.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/02. Spell Globe Button.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/03. Offensive Spell Tree.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/04. Passive Spell Tree.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/05. Equipped Spell Row.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/06. Spell Menu Widget.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/07. Spell Description Box.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/08. Spell Menu Button.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/09. Spell Menu Widget Controller.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/10. Constructing the Spell Menu Widget Controller.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/11. Equipped Row Button.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/12. Ability Status and Type.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/13. Showing Abilities in the Spell Tree.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/14. Ability Level Requirement.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/15. Update Ability Statuses.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/16. Updating Status in the Spell Menu.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/17. Show Spell Points.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/18. Selecting Icons.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/19. Deselecting Icons.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/20. Spell Menu Buttons.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/21. Selected Ability.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/22. Spending Spell Points.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/23. Rich Text Blocks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/24. Spell Descriptions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/25. FireBolt Description.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/26. Cost and Cooldown in Spell Description.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/27. Self Deselect.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/28. Equipped Spell Row Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/29. Ability Types.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/30. Equipping Abilities.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/31. Updating the Overlay When Equipping Abilities.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/32. Globe Reassigned.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/24. Spell Menu/33. Unbinding Delegates.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "24. Spell Menu"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/25. Combat Tricks/01. Debuff Tags.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/25. Combat Tricks/02. Debuff Parameters.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/25. Combat Tricks/03. Damage Effect Params Struct.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/25. Combat Tricks/04. Using Damage Effect Params.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/25. Combat Tricks/05. Determining Debuff.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/25. Combat Tricks/06. Debuff Info in the Effect Context.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "25. Combat Tricks"
+            }
+        ],
+        "SeriesName": "Top Down RPG",
+        "SeriesPath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG"
+    }
+]

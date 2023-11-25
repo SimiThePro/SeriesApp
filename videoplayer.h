@@ -18,6 +18,7 @@ public:
 
 
     void SetVideo(const QString& FileName);
+    void SetPlayingEpisode(class Episode* newEpisode){PlayingEpisode = newEpisode;}
 private slots:
     void on_PlayButton_pressed();
     void mediaStatusChanged(QMediaPlayer::MediaStatus status);
@@ -29,6 +30,8 @@ private:
 
     QWidget* m_VideoPlayerWidget;
     QWidget* m_ControllsWidget;
+
+    class Episode* PlayingEpisode;
 
     class QMediaPlayer* m_MediaPlayer;
     class QAudioOutput* m_AudioOutput;

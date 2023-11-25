@@ -10,6 +10,9 @@
 #include <SeriesOverview.h>
 #include <VideoPlayer.h>
 #include <QUrl>
+#include <QJsonDocument>
+#include <QJsonArray>
+#include <QJsonObject>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -30,12 +33,9 @@ MainWindow::MainWindow(QWidget *parent)
     ui->stackedWidget->addWidget(m_VideoPlayerWidget);
     ui->stackedWidget->setCurrentWidget(OverviewWidget);
 
-    QFileInfo info("D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction");
-    QString st("D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction/01. Introduction.mp4");
 
-
-    qInfo() << sizeof(info);
-    qInfo() << sizeof(st);
+    //Load Series from File and add them to library
+    LoadFromFileAndAddSeries();
 
 }
 
@@ -57,21 +57,104 @@ void MainWindow::AddSeries(Series *newSeries)
 
 void MainWindow::SeriesPressed(Series *pressedSeries)
 {
+
     pressedSeries->MainWindowParent(this);
     m_SeriesOverviewWidget->SetSeries(pressedSeries);
     ui->stackedWidget->setCurrentWidget(m_SeriesOverviewWidget);
 }
 
-void MainWindow::SeriesSelected(const QString &Url)
+void MainWindow::EpisodeSelected(Episode* episode)
 {
 
-    m_VideoPlayerWidget->SetVideo(Url);
+    m_VideoPlayerWidget->SetVideo(episode->getFilePath());
+    m_VideoPlayerWidget->SetPlayingEpisode(episode);
     ui->stackedWidget->setCurrentWidget(m_VideoPlayerWidget);
 }
 
 void MainWindow::LoadFromFileAndAddSeries()
 {
+    QFile file(static_cast<QString>(PROJECT_PATH) + "Data/Data.json");
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        qDebug() << "Failed to open file for reading:" << file.errorString();
+    }
 
+    QByteArray jsonData = file.readAll();
+    file.close();
+
+    QJsonParseError parseError;
+    QJsonDocument doc = QJsonDocument::fromJson(jsonData, &parseError);
+    if (doc.isNull() || !doc.isArray()) {
+        qDebug() << "Failed when creating:" << parseError.errorString();
+        if (parseError.error != QJsonParseError::IllegalValue &&
+            parseError.error != QJsonParseError::GarbageAtEnd){
+            return;
+        }
+    }
+    jsonData.clear();
+
+    QJsonArray arr = doc.array();
+
+
+
+    for (const auto& series : arr){
+        QJsonObject seriesObject = series.toObject();
+
+        QList<Section*> sections = {};
+        QString SeriesName = seriesObject["SeriesName"].toString();
+        QString IconPath = seriesObject["IconPath"].toString();
+        QString SeriesPath = seriesObject["SeriesPath"].toString();
+        // Set Course Path
+
+        if (seriesObject.contains("Sections") && seriesObject["Sections"].isArray()){
+            QJsonArray sectionArray = seriesObject["Sections"].toArray();
+
+            //Iterate through sections
+            for (const auto& section : sectionArray){
+                QJsonObject sectionObject = section.toObject();
+                QList<Episode*> episodes = {};
+                if (sectionObject.contains("Episodes") && sectionObject["Episodes"].isArray()){
+                    QJsonArray episodesArray = sectionObject["Episodes"].toArray();
+
+                    // Iterate through the episodes
+                    for (const auto &episode : episodesArray) {
+                        QJsonObject episodeObject = episode.toObject();
+
+                        QString filePath = episodeObject["FilePath"].toString();
+                        int progress = episodeObject["Progress"].toInt();
+                        int duration = episodeObject["Duration"].toInt();
+                        //Add episode to episode list for the section
+                        episodes.append(new Episode(filePath,progress,duration,this));
+                    }
+                }
+
+                QString sectionName = sectionObject["SectionName"].toString();
+                sections.append(new Section(sectionName,episodes,this));
+            }
+        }
+
+        SeriesJsonArray.append(seriesObject);
+        Series* loadedSeries = new Series(SeriesName,SeriesPath,IconPath,sections,this);
+        m_SeriesList.append(loadedSeries);
+        LibraryWidget->AddSeriesToLayout(loadedSeries);
+    }
+}
+
+void MainWindow::AddToJSON(QJsonObject newObject)
+{
+    SeriesJsonArray.append(newObject);
+    UpdateJSON();
+}
+
+void MainWindow::UpdateJSON()
+{
+    QFile file(static_cast<QString>(PROJECT_PATH) + "Data/Data.json");
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        qDebug() << "Failed to open file for reading:" << file.errorString();
+    }
+
+    QJsonDocument doc(SeriesJsonArray);
+    file.write(doc.toJson());
+    file.close();
 }
 
 

@@ -3,6 +3,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <qjsonarray.h>
 
 
 
@@ -24,8 +25,12 @@ public:
 
     void AddSeries(Series* newSeries);
     void SeriesPressed(Series* pressedSeries);
-    void SeriesSelected(const QString& Url);
+    void EpisodeSelected(class Episode* episode);
+    void LoadFromFileAndAddSeries();
 
+    void AddToJSON(QJsonObject newObject);
+    void UpdateJSON();
+    QJsonArray& getSeriesJsonArray() {return SeriesJsonArray;}
 private slots:
     void on_OverviewButton_clicked();
 
@@ -44,6 +49,8 @@ private:
     class VideoPlayer* m_VideoPlayerWidget;
 
     QList<class Series*> m_SeriesList;
+
+    QJsonArray SeriesJsonArray;
 };
 
 #endif // MAINWINDOW_H

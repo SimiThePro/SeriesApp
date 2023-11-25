@@ -54,30 +54,9 @@ void SeriesOverview::SetSeries(Series *series)
 
 
         layout->setAlignment(Qt::AlignTop);
-        for (const QFileInfo& e : s->getFileList()){
-
-            /*
-            QMediaPlayer mediaPlayer;
-            mediaPlayer.setSource(QUrl::fromLocalFile(e.absoluteFilePath()));
-
-            QObject::connect(&mediaPlayer, &QMediaPlayer::mediaStatusChanged, [&](QMediaPlayer::MediaStatus status) {
-                if (status == QMediaPlayer::LoadedMedia) {
-                    QVariant metaData = mediaPlayer.metaData().value(QMediaMetaData::ThumbnailImage);
-                    if (metaData.isValid()) {
-                        QLabel* ImageThumbnail = new QLabel;
-                        QPixmap thumbnail = qvariant_cast<QPixmap>(metaData);
-                        ImageThumbnail->setPixmap(thumbnail);
-                        // Do something with the thumbnail (e.g., display it)
-                    } else {
-                        qDebug() << "Thumbnail not available.";
-                    }
-                }
-            });
-            */
-
-
+        for (Episode* e : s->getEpisodes()){
             QPushButton* btn = new QPushButton(this);
-            btn->setText(e.completeBaseName());
+            btn->setText(e->getEpisodeName());
             btngroup->addButton(btn);
             layout->addWidget(btn);
         }

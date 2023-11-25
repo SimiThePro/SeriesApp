@@ -32,5 +32,7 @@ void Library::AddSeriesToLayout(Series* newSeries)
 
 void Library::SeriesPressed(Series *pressedSeries)
 {
+
+
     m_MainWindow->SeriesPressed(pressedSeries);
 }
