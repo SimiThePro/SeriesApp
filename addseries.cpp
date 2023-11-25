@@ -5,6 +5,9 @@
 
 #include <QErrorMessage>
 #include <QFileDialog>
+#include <QJsonArray>
+#include <QJsonObject>
+#include <QJsonParseError>
 #include <Series.h>
 
 AddSeries::AddSeries(QWidget *parent) :
@@ -63,7 +66,43 @@ void AddSeries::on_buttonBox_accepted()
 
     m_Series->MainWindowParent(m_MainWindow);
 
+    QFile file(static_cast<QString>(PROJECT_PATH) + "Data/Data.json");
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        qDebug() << "Failed to open file for reading:" << file.errorString();
+    }
+
+    QByteArray jsonData = file.readAll();
+    file.close();
+
+    QJsonParseError parseError;
+    QJsonDocument doc = QJsonDocument::fromJson(jsonData, &parseError);
+    if (doc.isNull() || !doc.isArray()) {
+        qDebug() << "Failed when creating:" << parseError.errorString();
+        if (parseError.error != QJsonParseError::IllegalValue &&
+            parseError.error != QJsonParseError::GarbageAtEnd){
+            return;
+        }
+    }
+    jsonData.clear();
+
+    QJsonArray arr = doc.array();
+
+
+    for (const auto& series : arr){
+        QJsonObject seriesObject = series.toObject();
+
+        if (seriesObject.contains("SeriesPath")){
+            if (seriesObject["SeriesPath"].toString() == SeriesPath){
+                QErrorMessage* Error = new QErrorMessage(this);
+                Error->showMessage("This Series already exists");
+                return;
+            }
+        }
+    }
+
     m_MainWindow->AddSeries(m_Series);
+
+
 }
 
 

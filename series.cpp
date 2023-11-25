@@ -6,6 +6,9 @@
 #include <QCollator>
 #include <QDir>
 #include <QDirIterator>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
 #include <QStackedLayout>
 #include <QString>
 #include <qbuttongroup.h>
@@ -67,13 +70,56 @@ void Series::setSeriesName(const QString &newSeriesName)
     ui->label->setText(newSeriesName);
 }
 
-QString Series::PrintFiles()
+void Series::SaveToFile()
 {
-    QString rS = "";
 
-    for (auto& section : m_Sections){
-
+    QFile file(static_cast<QString>(PROJECT_PATH) + "Data/Data.json");
+    if (!file.open(QIODevice::ReadWrite)){
+        qInfo() << "NO Open";
     }
+
+    QByteArray jsonData = file.readAll();
+
+
+    QJsonParseError parseError;
+    QJsonDocument doc = QJsonDocument::fromJson(jsonData, &parseError);
+    if (doc.isNull() || !doc.isArray()) {
+        qDebug() << "Failed to parse JSON:" << parseError.errorString();
+    }
+
+
+    QJsonArray dataArray = doc.array();
+
+    QJsonObject SeriesEntry;
+    SeriesEntry["SeriesName"] = SeriesName;
+    SeriesEntry["SeriesPath"] = SeriesPath;
+    SeriesEntry["IconPath"] = SeriesIconPath;
+
+    QJsonObject sectionObject;
+    QJsonArray sectionsArray;
+
+    QJsonObject episodeObject;
+    QJsonArray episodesArray;
+
+    for (Section* s : m_Sections){
+        sectionObject["SectionName"] = s->getSectionName();
+        for (Episode* e : s->getEpisodes()){
+            episodeObject["FilePath"] = e->getFilePath();
+            episodeObject["Progress"] = e->getProgress();
+            episodesArray.append(episodeObject);
+        }
+        sectionObject["Episodes"] = episodesArray;
+        sectionsArray.append(sectionObject);
+    }
+
+    SeriesEntry["Sections"] = sectionsArray;
+    dataArray.append(SeriesEntry);
+
+    doc = QJsonDocument(dataArray);
+
+    file.write((doc.toJson()));
+    file.close();
+
 }
 
 QString Series::getSeriesPath() const
@@ -228,6 +274,7 @@ Section::Section(QDir dir, MainWindow* mainWindow)
 
     for (auto& a : fileList){
         m_VideoFiles.append(a.filePath());
+        m_Episodes.append(new Episode(a.filePath(),m_MainWindow));
     }
 
     m_FileList = fileList;
@@ -246,4 +293,12 @@ void Section::buttonPressed(QAbstractButton *button)
 
     m_MainWindow->SeriesSelected(m_FileList[index].absoluteFilePath());
 
+}
+
+Episode::Episode(const QString &FilePath, MainWindow *mainWindow)
+{
+    m_FileInfo = QFileInfo(FilePath);
+    m_MainWindow = mainWindow;
+    m_duration = -1; //Set -1 so we know that it is not initialized
+    m_progress = -1;
 }

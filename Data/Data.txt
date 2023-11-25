@@ -1,0 +1,4 @@
+{
+    "IconPath": "C:/Users/simim/Pictures/Camera Roll/WhatsApp Image 2021-07-18 at 22.16.02.jpeg",
+    "SeriesName": "Ben"
+}

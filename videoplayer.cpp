@@ -42,7 +42,10 @@ VideoPlayer::VideoPlayer(QWidget *parent) :
 
 
     connect(m_PlayButton,SIGNAL(pressed()),this,SLOT(on_PlayButton_pressed()));
-
+    connect(m_MediaPlayer,SIGNAL(mediaStatusChanged(QMediaPlayer::MediaStatus)),this,SLOT(mediaStatusChanged(QMediaPlayer::MediaStatus)));
+    connect(m_MediaPlayer,SIGNAL(positionChanged(qint64)),this,SLOT(positionChanged(qint64)));
+    connect(m_MediaPlayer,SIGNAL(durationChanged(qint64)),this,SLOT(durationChanged(qint64)));
+    connect(m_PositionSlider,SIGNAL(sliderMoved(int)),this,SLOT(setPosition(int)));
 }
 
 VideoPlayer::~VideoPlayer()
@@ -52,7 +55,8 @@ VideoPlayer::~VideoPlayer()
 
 void VideoPlayer::SetVideo(const QString &FileName)
 {
-    m_MediaPlayer->setSource(FileName);
+
+    m_MediaPlayer->setSource(QUrl::fromLocalFile(FileName));
     m_MediaPlayer->play();
 }
 
@@ -64,4 +68,60 @@ void VideoPlayer::on_PlayButton_pressed()
     else if (m_MediaPlayer->playbackState() == QMediaPlayer::PlayingState){
         m_MediaPlayer->pause();
     }
+}
+
+void VideoPlayer::mediaStatusChanged(QMediaPlayer::MediaStatus status)
+{
+    switch (status) {
+    case QMediaPlayer::NoMedia:{
+        qInfo() << "NoMedia";
+        break;
+    }
+    case QMediaPlayer::LoadingMedia:{
+        qInfo() << "LoadingMedia";
+        break;
+    }
+    case QMediaPlayer::LoadedMedia:{
+        qInfo() << "LoadedMedia";
+        break;
+    }
+    case QMediaPlayer::StalledMedia:{
+        qInfo() << "StalledMedia";
+        break;
+    }
+    case QMediaPlayer::BufferingMedia:{
+        qInfo() << "BufferingMedia";
+        break;
+    }
+    case QMediaPlayer::BufferedMedia:{
+        qInfo() << "BufferedMedia";
+        break;
+    }
+    case QMediaPlayer::EndOfMedia:{
+        qInfo() << "EndOfMedia";
+        break;
+    }
+    case QMediaPlayer::InvalidMedia:{
+        qInfo() << "InvalidMedia";
+        break;
+    }
+
+    default:
+        break;
+    }
+}
+
+void VideoPlayer::positionChanged(qint64 position)
+{
+    m_PositionSlider->setSliderPosition(position);
+}
+
+void VideoPlayer::durationChanged(qint64 duration)
+{
+    m_PositionSlider->setRange(0, duration);
+}
+
+void VideoPlayer::setPosition(int position)
+{
+    m_MediaPlayer->setPosition(position);
 }

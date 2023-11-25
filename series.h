@@ -36,6 +36,8 @@ public:
     QList<class Section*> getSections() const {return m_Sections;}
 
     void MainWindowParent(class MainWindow* MW) {this->m_MainWindow = MW;}
+
+    void SaveToFile();
 protected:
 
 private slots:
@@ -57,6 +59,11 @@ private:
     void SetButtonIcon(const QString& filename);
 };
 
+
+
+
+
+//-------------SECTION-------------
 class Section : public QObject{
 
    Q_OBJECT
@@ -70,6 +77,7 @@ public:
     QList<QFileInfo> getFileList() {return m_FileList;}
 
     void SetButtonGroup(class QButtonGroup* ButtonGroup);
+    QList<class Episode*> getEpisodes() const {return m_Episodes;}
 private:
 
     MainWindow* m_MainWindow;
@@ -79,10 +87,30 @@ private:
     class QButtonGroup* m_ButtonGroup;
 
     QVector<QFileInfo> m_FileList;
+    QList<class Episode*> m_Episodes;
 
 private slots:
     void buttonPressed(class QAbstractButton *button);
 };
 
+
+
+class Episode : public QObject{
+
+    Q_OBJECT
+public:
+    Episode(const QString& FilePath, class MainWindow* mainWindow);
+
+    QString getFilePath() const {return m_FileInfo.filePath();}
+
+    int getProgress() const {return m_progress;}
+private:
+    MainWindow* m_MainWindow;
+
+    QFileInfo m_FileInfo;
+    int m_duration;
+    int m_progress;
+
+};
 
 #endif // SERIES_H

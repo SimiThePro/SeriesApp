@@ -1,6 +1,7 @@
 #ifndef VIDEOPLAYER_H
 #define VIDEOPLAYER_H
 
+#include <QMediaPlayer>
 #include <QWidget>
 
 namespace Ui {
@@ -19,7 +20,10 @@ public:
     void SetVideo(const QString& FileName);
 private slots:
     void on_PlayButton_pressed();
-
+    void mediaStatusChanged(QMediaPlayer::MediaStatus status);
+    void positionChanged(qint64 position);
+    void durationChanged(qint64 duration);
+    void setPosition(int position);
 private:
     Ui::VideoPlayer *ui;
 
