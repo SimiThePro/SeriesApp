@@ -1,4 +1,5 @@
 #include "addseries.h"
+
 #include "mainwindow.h"
 #include "overview.h"
 #include "ui_addseries.h"

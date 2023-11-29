@@ -31,6 +31,7 @@ public:
     void AddToJSON(QJsonObject newObject);
     void UpdateJSON();
     QJsonArray& getSeriesJsonArray() {return SeriesJsonArray;}
+    void setSeriesJsonArray(const QJsonArray& newJsonArray) {SeriesJsonArray = newJsonArray;}
 private slots:
     void on_OverviewButton_clicked();
 

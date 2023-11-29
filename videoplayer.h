@@ -17,7 +17,7 @@ public:
     ~VideoPlayer();
 
 
-    void SetVideo(const QString& FileName);
+    void SetEpisode(class Episode* newEpisode);
     void SetPlayingEpisode(class Episode* newEpisode){PlayingEpisode = newEpisode;}
 private slots:
     void on_PlayButton_pressed();

@@ -9,6 +9,7 @@
 #include <QWidget>
 
 
+
 class QFileInfo;
 namespace Ui {
 class Series;
@@ -119,12 +120,16 @@ public:
     int getProgress() const {return m_progress;}
     QString getEpisodeName() const {return m_EpisodeName;}
 
+
+    void setDuration(int newDuration) {m_duration = newDuration;}
+
     void setJsonObject(const QJsonObject& newObject) {m_jsonObject = newObject;};
     void setSection(Section* section) {m_Section = section;}
 
     void UpdateValue();
 
 private:
+
     MainWindow* m_MainWindow;
 
     class Section* m_Section;

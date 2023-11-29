@@ -1,5 +1,6 @@
 #include "videoplayer.h"
 #include "ui_videoplayer.h"
+#include "Series.h"
 #include <QMediaPlayer>
 #include <QAudioOutput>
 #include <QVideoWidget>
@@ -53,10 +54,10 @@ VideoPlayer::~VideoPlayer()
     delete ui;
 }
 
-void VideoPlayer::SetVideo(const QString &FileName)
+void VideoPlayer::SetEpisode(class Episode* newEpisode)
 {
-
-    m_MediaPlayer->setSource(QUrl::fromLocalFile(FileName));
+    PlayingEpisode = newEpisode;
+    m_MediaPlayer->setSource(QUrl::fromLocalFile(newEpisode->getFilePath()));
     m_MediaPlayer->play();
 }
 
@@ -95,6 +96,8 @@ void VideoPlayer::mediaStatusChanged(QMediaPlayer::MediaStatus status)
     }
     case QMediaPlayer::BufferedMedia:{
         qInfo() << "BufferedMedia";
+        PlayingEpisode->setDuration(m_MediaPlayer->duration());
+        PlayingEpisode->UpdateValue();
         break;
     }
     case QMediaPlayer::EndOfMedia:{

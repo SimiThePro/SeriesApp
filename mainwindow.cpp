@@ -65,9 +65,7 @@ void MainWindow::SeriesPressed(Series *pressedSeries)
 
 void MainWindow::EpisodeSelected(Episode* episode)
 {
-
-    m_VideoPlayerWidget->SetVideo(episode->getFilePath());
-    m_VideoPlayerWidget->SetPlayingEpisode(episode);
+    m_VideoPlayerWidget->SetEpisode(episode);
     ui->stackedWidget->setCurrentWidget(m_VideoPlayerWidget);
 }
 

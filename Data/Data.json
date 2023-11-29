@@ -5,7 +5,7 @@
             {
                 "Episodes": [
                     {
-                        "Duration": -1,
+                        "Duration": 727125,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction/01. Introduction.mp4",
                         "Progress": -1
                     }
@@ -15,7 +15,7 @@
             {
                 "Episodes": [
                     {
-                        "Duration": -1,
+                        "Duration": 296896,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/01. Project Creation.mp4",
                         "Progress": -1
                     },
@@ -1660,5 +1660,657 @@
         ],
         "SeriesName": "Top Down RPG",
         "SeriesPath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG"
+    },
+    {
+        "IconPath": "C:/Users/simim/Pictures/Camera Roll/WhatsApp Image 2021-07-18 at 22.18.44.jpeg",
+        "Sections": [
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/002 What is Unreal Engine_.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/003 The Epic Games Launcher.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/004 Stock or customized engine_.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/005 Downloading the stock engine.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/006 Downloading from source code.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/008 Downloading Visual Studio.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/010 Preparing Visual Studio.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/012 Compiling from source code.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/013 Version control.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/014 Preparing for version control.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/015 Adding your custom engine to version control.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/016 Basic terminology.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/017 Exploring the editor.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/018 C++.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/019 Blueprints.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/020 C++ or blueprints.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/021 Coding standard.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "01 Getting Started"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/001 Starting your first project.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/002 Creating your first project.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/003 Core class hierarchy.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/004 Creating a new class.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/005 Properties.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/006 Mobilizing our ball bearing.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/008 Editor naming conventions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/009 Adding a debugging HUD.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/010 Arrays, an introduction.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/011 The actor life-cycle.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/012 The goal of the game.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/013 Constructing a level.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/014 The C++ _ blueprint divide.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/015 Wrapping up.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "02 Metal in motion, part I"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/001 Math primer.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/002 Evaluation order.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/003 Degrees and radians.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/004 Ratios.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/005 Trigonometry.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/006 Abs and Sign.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/007 Pow.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/008 Interpolation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/009 Easing in and out.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/010 Time-based smoothing.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/011 Random number generation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/012 Vectors.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/013 Dot products.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/014 Cross products.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/015 Quaternions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/016 Rotators.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/017 Transforms.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/018 Coordinate spaces.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/019 Matrices.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/020 Wrapping up.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "03 Game mathematics fundamentals"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/001 Upping our game.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/002 Functions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/003 Magnetism.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/004 The console.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/005 Finishing up.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/006 Where now_.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/007 Build configurations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/008 Version control check-in process.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/009 Visual Studio version control integration.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "04 Metal in motion, part II"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/001 The road ahead.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/003 Physics primer.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/004 Creating your second project.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/005 Unreal Engine modifications.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/006 Downloading the GRIP goods.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/008 Skeletal meshes and physics assets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/009 Exploration of the GRIP code.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/010 I am vehicle.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/011 Diagnostic checks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/012 Raising the vehicle.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/013 Output logging.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/014 Fundamental physics forces and control.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/015 Class specifiers.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/016 Adding grip to GRIP, and vehicle animation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/017 Improving the physics body setup.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/018 Vehicle drifting.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/019 Physics materials and surface types.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "05 Vehicle dynamics, part I"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/001 Engine timing.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/002 Physics timing.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/003 Time dilation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/004 Timers and time sharing.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/005 Floating point precision.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "06 Time and timing"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/07 Graphics/001 Textures, materials, particle systems and data assets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/07 Graphics/002 Driving surfaces and wheel effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/07 Graphics/003 Vehicle impact effects.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "07 Graphics"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/08 Vehicle dynamics, part II/001 Automatic bidirectional traction control.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/08 Vehicle dynamics, part II/002 Vehicle dynamics amelioration.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/08 Vehicle dynamics, part II/003 CCD.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "08 Vehicle dynamics, part II"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/09 Audio/001 Sound waves, cues, classes and attenuation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/09 Audio/002 Audio components and vehicle audio.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "09 Audio"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/001 Spline dependency.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/002 Nearest spline position determination.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/003 Where to go.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/005 Exercising control.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/006 More than just foot to the floor.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/007 The nature of attraction.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/008 Collision avoidance.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "10 Artificial intelligence"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/001 Race position determination.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/002 Vehicle teleportation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/003 Low speed hackery.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/004 Airblades.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "11 Vehicle dynamics, part III"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/001 Pickups.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/002 The turbo.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/003 The gun.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/004 The missile.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/005 More missile.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/006 Missile in motion.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/007 The shield.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/008 Bot combat training.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "12 Pickups"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/001 Constructing the camera.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/002 Racing the camera.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/003 Mounting the camera.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/004 Action camera essentials.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "13 Camera work"
+            },
+            {
+                "Episodes": [
+                ],
+                "SectionName": "14 Raising your game"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/15 Bringing it all together/001 Your world, in your hands.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "15 Bringing it all together"
+            }
+        ],
+        "SeriesName": "Pro Unreal Engine Coding",
+        "SeriesPath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021"
     }
 ]
