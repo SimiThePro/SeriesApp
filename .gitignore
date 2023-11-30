@@ -71,4 +71,4 @@ CMakeLists.txt.user*
 # --------
 *.dll
 *.exe
-#JSON*.json
+Data.json*pro.user
