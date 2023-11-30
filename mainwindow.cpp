@@ -1,5 +1,6 @@
 
 #include "mainwindow.h"
+#include "episode.h"
 #include "ui_mainwindow.h"
 #include <Library.h>
 #include <QScrollArea>
@@ -26,6 +27,8 @@ MainWindow::MainWindow(QWidget *parent)
     m_VideoPlayerWidget = new VideoPlayer(this);
 
     m_SeriesList = QList<Series*>{};
+    m_pendingChangedEpisodes = QList<Episode*>{};
+
 
     ui->stackedWidget->addWidget(OverviewWidget);
     ui->stackedWidget->addWidget(LibraryWidget);
@@ -41,6 +44,9 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
+    for (auto e : m_pendingChangedEpisodes){
+        e->UpdateValue();
+    }
     delete ui;
 }
 
@@ -57,7 +63,6 @@ void MainWindow::AddSeries(Series *newSeries)
 
 void MainWindow::SeriesPressed(Series *pressedSeries)
 {
-
     pressedSeries->MainWindowParent(this);
     m_SeriesOverviewWidget->SetSeries(pressedSeries);
     ui->stackedWidget->setCurrentWidget(m_SeriesOverviewWidget);
@@ -65,6 +70,8 @@ void MainWindow::SeriesPressed(Series *pressedSeries)
 
 void MainWindow::EpisodeSelected(Episode* episode)
 {
+    m_pendingChangedEpisodes.append(episode);
+    episode->setDuration(50);
     m_VideoPlayerWidget->SetEpisode(episode);
     ui->stackedWidget->setCurrentWidget(m_VideoPlayerWidget);
 }

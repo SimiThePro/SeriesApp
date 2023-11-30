@@ -12,6 +12,7 @@ DEFINES += PROJECT_PATH=\"\\\"$${_PRO_FILE_PWD_}/\\\"\"
 
 SOURCES += \
     addseries.cpp \
+    episode.cpp \
     library.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -22,6 +23,7 @@ SOURCES += \
 
 HEADERS += \
     addseries.h \
+    episode.h \
     library.h \
     mainwindow.h \
     overview.h \
@@ -31,6 +33,7 @@ HEADERS += \
 
 FORMS += \
     addseries.ui \
+    episode.ui \
     library.ui \
     mainwindow.ui \
     overview.ui \

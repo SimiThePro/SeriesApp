@@ -1,4 +1,5 @@
 #include "seriesoverview.h"
+#include "episode.h"
 #include <QButtonGroup>
 #include <QFileInfo>
 #include <QMediaPlayer>

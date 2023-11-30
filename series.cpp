@@ -1,7 +1,7 @@
 #include "series.h"
 #include "mainwindow.h"
 #include "ui_series.h"
-
+#include "ui_episode.h"
 
 #include <Library.h>
 #include <QCollator>
@@ -13,6 +13,7 @@
 #include <QStackedLayout>
 #include <QString>
 #include <qbuttongroup.h>
+#include "episode.h"
 
 Series::Series(QWidget *parent) :
     QWidget(parent),
@@ -284,7 +285,9 @@ Section::Section(QDir dir, MainWindow* mainWindow)
 
     for (auto& a : fileList){
         m_VideoFiles.append(a.filePath());
-        m_Episodes.append(new Episode(a.filePath(),m_MainWindow));
+        Episode* newEpisode = new Episode(a.filePath(),m_MainWindow);
+        newEpisode->setSection(this);
+        m_Episodes.append(newEpisode);
     }
 
     m_FileList = fileList;
@@ -313,112 +316,3 @@ void Section::buttonPressed(QAbstractButton *button)
 }
 
 
-Episode::Episode(const QString &FilePath, MainWindow *mainWindow)
-{
-    m_FileInfo = QFileInfo(FilePath);
-    m_EpisodeName = m_FileInfo.completeBaseName();
-    m_MainWindow = mainWindow;
-    m_duration = -1; //Set -1 so we know that it is not initialized
-    m_progress = -1;
-}
-
-Episode::Episode(const QString &FilePath, int progress, int duration, MainWindow *mainWindow)
-{
-
-    m_FileInfo = QFileInfo(FilePath);
-    m_EpisodeName = m_FileInfo.completeBaseName();
-    m_progress = progress;
-    m_duration = duration;
-    m_MainWindow = mainWindow;
-}
-
-void Episode::UpdateValue()
-{
-    QJsonObject obj;
-    QString path;
-    QJsonValue newValue;
-
-    QJsonArray jsonArray = m_MainWindow->getSeriesJsonArray();
-
-    for (int i = 0; i < jsonArray.size(); ++i) {
-        QJsonObject seriesObject = jsonArray[i].toObject();
-        QJsonArray sectionsArray = seriesObject["Sections"].toArray();
-
-        for (int j = 0; j < sectionsArray.size(); ++j) {
-            QJsonObject sectionObject = sectionsArray[j].toObject();
-
-            if (sectionObject["SectionName"].toString() == m_Section->getSectionName()) {
-                QJsonArray episodesArray = sectionObject["Episodes"].toArray();
-
-                for (int k = 0; k < episodesArray.size(); ++k) {
-                    QJsonObject episodeObject = episodesArray[k].toObject();
-
-                    if (episodeObject["FilePath"].toString() == m_FileInfo.filePath()) {
-                        episodeObject["Duration"] = m_duration;
-                        episodesArray[k] = episodeObject;
-                        sectionObject["Episodes"] = episodesArray;
-                        sectionsArray[j] = sectionObject;
-                        seriesObject["Sections"] = sectionsArray;
-                        jsonArray[i] = seriesObject;
-
-                        QFile writeFile(static_cast<QString>(PROJECT_PATH) + "Data/Data.json");
-                        if (!writeFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
-                            qDebug() << "Failed to open file for writing:" << writeFile.errorString();
-                            return;
-                        }
-
-                        m_MainWindow->setSeriesJsonArray(jsonArray);
-
-                        QJsonDocument updatedDoc(jsonArray);
-                        writeFile.write(updatedDoc.toJson());
-                        writeFile.close();
-                        qDebug() << "Duration updated for file" << m_FileInfo.filePath();
-                        return;
-                    }
-                }
-            }
-        }
-    }
-
-
-    /*
-
-    for (auto a: m_MainWindow->getSeriesJsonArray()){
-        QJsonObject seriesObject = a.toObject();
-        if (seriesObject.contains("Sections")){
-            QJsonArray sectionsArray = seriesObject["Sections"].toArray();
-            if (sectionsArray.contains(m_Section->getSectionName())){
-                int index = 0;
-                for (auto s : sectionsArray){
-
-                    if (s.toString() == m_Section->getSectionName()){
-
-                    }
-                    index++;
-                }
-            }
-        }
-    }
-
-
-
-
-    const int indexOfDot = path.indexOf('.');
-    const QString propertyName = path.left(indexOfDot);
-    const QString subPath = indexOfDot>0 ? path.mid(indexOfDot+1) : QString();
-
-    QJsonValue subValue = obj[propertyName];
-
-    if(subPath.isEmpty()) {
-        subValue = newValue;
-    }
-    else {
-        QJsonObject obj = subValue.toObject();
-        //modifyJsonValue(obj,subPath,newValue);
-        subValue = obj;
-    }
-
-    obj[propertyName] = subValue;
-
-*/
-}

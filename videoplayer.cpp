@@ -1,4 +1,5 @@
 #include "videoplayer.h"
+#include "episode.h"
 #include "ui_videoplayer.h"
 #include "Series.h"
 #include <QMediaPlayer>

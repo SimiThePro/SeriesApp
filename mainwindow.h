@@ -50,7 +50,7 @@ private:
     class VideoPlayer* m_VideoPlayerWidget;
 
     QList<class Series*> m_SeriesList;
-
+    QList<class Episode*> m_pendingChangedEpisodes;
     QJsonArray SeriesJsonArray;
 };
 
