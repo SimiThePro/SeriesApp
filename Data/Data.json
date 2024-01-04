@@ -1,13 +1,1245 @@
 [
     {
-        "IconPath": "",
+        "IconPath": "C:/Users/simim/Pictures/Meme/Untitled-2.png",
         "Sections": [
             {
                 "Episodes": [
                     {
-                        "Duration": 727125,
-                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction/01. Introduction.mp4",
+                        "Duration": 594,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/1. Introduction.mp4",
+                        "Progress": 594
+                    },
+                    {
+                        "Duration": 394,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/2. How to Get Help.mp4",
+                        "Progress": 394
+                    },
+                    {
+                        "Duration": 662,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/3. Installing Unreal Engine 5.mp4",
+                        "Progress": 662
+                    },
+                    {
+                        "Duration": 584,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/4. The Level Editor Viewport.mp4",
+                        "Progress": 584
+                    },
+                    {
+                        "Duration": 756,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/5. View Modes.mp4",
                         "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/6. Object Manipulation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/7. Panels.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/8. Section 1 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "1. Getting Started"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/1. Quixel Bridge.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/2. Open World.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/4. Landscape.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/5. 11 - Landscape Material.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/6. Landscape Painting.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/7. Foliage Painting.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/8. More Foliage Painting.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/9. Post Process Volume.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/10. Forest Polish Up.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/11. Packed Level Actors.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/12. Mountains.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": 1542,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/13. Level Instances.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/2. Realistic Landscapes/14. Section 2 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "2. Realistic Landscapes"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/1. Coordinates.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/2. Vectors.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/3. Vector Examples.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/4. Vector Operations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/5. Vector Operations Examples.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/6. Vector Magnitude.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/7. Vector Magnitude Examples.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/8. Vector Normalization.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/9. Rotators.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/3. Vectors, Rotators, and Trigonometry/10. Section 3 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "3. Vectors, Rotators, and Trigonometry"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": 154,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/4. C++ in Unreal Engine/1. Integrated Development Environment (IDE).mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": 879,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/4. C++ in Unreal Engine/2. Setting up Visual Studio.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/4. C++ in Unreal Engine/3. C++ Refresher.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/4. C++ in Unreal Engine/4. Reflection and Garbage Collection.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/4. C++ in Unreal Engine/5. Section 4 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "4. C++ in Unreal Engine"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/1. Actor Creation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": 1252,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/2. Blueprint Creation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": 926,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/3. Onscreen Debug Messages.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/4. Formatting Strings.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/5. Drawing Debug Spheres.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/6. Drawing Debug Lines.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/7. Drawing Debug Points.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/8. Custom Header Files.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/5. The Actor Class/9. Section 5 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "5. The Actor Class"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/1. SetActorLocation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/2. SetActorRotation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": 979,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/3. Actor World Offset.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/4. Trig Functions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/5. The Sine Function.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/6. Exposing Variables to Blueprint.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/7. Visible But Not Editable.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/8. Exposing Variables to the Event Graph.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/9. Exposing Functions to Blueprint.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/10. Template Functions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/11. Components.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/12. Components in C++.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/6. Moving Objects With Code/13. Section 6 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "6. Moving Objects With Code"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/1. The Pawn Class.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/2. Capsule Component.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/3. Forward Declaration.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/4. Skeletal Mesh Components.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/5. Binding Inputs.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/6. Adding Movement Input.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/7. Camera and Spring Arm.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/8. Adding Controller Input.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/9. Setting the Default Pawn.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/7. The Pawn Class/10. Section 7 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "7. The Pawn Class"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/1. The Character Class.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/2. Character Inputs.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/3. Character Camera and SpringArm.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/4. The Rotation Matrix.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/5. Controller Directions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/6. Hair and Eyebrows.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/7. Custom Hair Color.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/8. The Character Class/8. Section 8 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "8. The Character Class"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/9. The Animation Blueprint/1. The Animation Blueprint.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/9. The Animation Blueprint/2. The Anim Instance.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/9. The Animation Blueprint/3. Jumping.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/9. The Animation Blueprint/4. Jump Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/9. The Animation Blueprint/5. Inverse Kinematics.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/9. The Animation Blueprint/6. Section 9 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "9. The Animation Blueprint"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/10. Collision and Overlaps/1. Collision Presets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/10. Collision and Overlaps/2. Overlap Events.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/10. Collision and Overlaps/3. Delegates.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/10. Collision and Overlaps/4. On Component Begin Overlap.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/10. Collision and Overlaps/5. On Component End Overlap.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/10. Collision and Overlaps/6. Section 10 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "10. Collision and Overlaps"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/1. The Weapon Class.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/2. Sockets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/3. Downloading Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/4. IK Rig.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/5. IK Retargeter.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/6. Attaching the Sword.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/7. Picking Up Items.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/8. Enum for Character State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/9. Switching Animation Poses.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/10. Equipped Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/11. Multiple Animation Blueprints.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/11. The Weapon Class/12. Section 11 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "11. The Weapon Class"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/1. Animation Montages.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/2. Playing Montages from C++.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/3. Attacking State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/4. Resetting the Action State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/5. Item State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/6. Sound Notifies and Meta Sounds.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/7. Meta Sounds for Footsteps.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/8. Fixing Foot Placement.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/9. Putting the Sword Away.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/10. Playing Arm and Disarm Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/11. Attaching the Sword to the Back.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/12. Equip and Unequip Sounds.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/13. Editing Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/14. Section 12 Challenge Option A.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/12. Attacking/15. Section 12 Challenge Option B.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "12. Attacking"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/1. Collision Box.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/2. Tracing.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/3. Box Trace in C++.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/4. Dynamic Arrays.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/5. Disabling Weapon Box Collision.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/6. Unreal Interfaces.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/7. Enemies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/8. Root Motion Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/10. Hit React Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/11. Playing the Hit React Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/12. Dot Product.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/13. Cross Product.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/14. Directional Hit Reactions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/15. One Hit Per Swing.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/16. Hit Sounds.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/17. Hit Particles.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/18. Weapon Trails.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/13. Weapon Mechanics/19. Section 13 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "13. Weapon Mechanics"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": 465621,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/14. Breakable Actors/1. Destructible Meshes.mp4",
+                        "Progress": 121333
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/14. Breakable Actors/2. Field System Actors.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/14. Breakable Actors/3. Creating Fields with Weapons.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/14. Breakable Actors/4. Breakable Actor.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/14. Breakable Actors/5. Blueprint Native Event.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/14. Breakable Actors/6. Breaking Sounds.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/14. Breakable Actors/7. Section 14 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "14. Breakable Actors"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/1. Treasure.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/2. Spawning Actors.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/3. Spawning Actors from C++.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/4. Different Types of Treasure.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/5. Different Types of Breakables.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/6. Niagara Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/7. Niagara Components.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/15. Treasure/8. Section 15 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "15. Treasure"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/1. Actor Components.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/2. Widget Components.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/3. User Widget Class.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/4. Setting the Health Percent.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/5. Damage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/6. Custom Health Bars.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/7. Enemy Death Animations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/8. Enemy Death.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/9. Death Poses.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/10. Polishing Enemy Death.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/16. Combat/11. Section 16 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "16. Combat"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/1. Making Enemies Move.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/2. Enemy Movement Anims.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/3. Blendspaces.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/4. Patrol Targets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/5. Selecting Patrol Targets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/6. Patrol Wait Time.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/7. Pawn Sensing Component.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/8. Enemy States.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/9. Enemies Losing Interest.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/10. Attack Radius.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/11. Agro When Hit.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/12. Weapon Alterations.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/17. Enemy Behavior/13. Section 17 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "17. Enemy Behavior"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/1. Using Inheritance.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/2. Enemy Base Blueprint.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/3. Enemy Weapon.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/4. Enemy Attack Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/5. Enemy Attack Timer.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/6. Refactoring Montage Functions.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/7. Engaged State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/8. Finishing Refactoring.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/9. Hitting the Character.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/18. Enemy Attacks/10. Section 18 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "18. Enemy Attacks"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/1. IK Rig for the Paladin.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/2. Echo Hit React Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/3. Echo Gets Hit.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/4. Hit Reaction State.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/5. Improving Directional Hit React.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/6. Root Motion Attacks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/7. Motion Warping.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/8. Fixing Warp Targets.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/19. Smarter Enemies/9. Section 19 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "19. Smarter Enemies"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": 209,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/1. Echo's Health.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/2. Echo Health Bar.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/3. Slash Overlay.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/4. SlashHUD.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/5. Setting the HUD from C++.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/6. Updating HUD Health.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/7. Echo's Death Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/8. Playing Echo's Death Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/9. Stop Enemy Attacks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/20. Echo's Attributes/10. Section 20 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "20. Echo's Attributes"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/1. Souls Niagara System.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/2. Soul Class.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/3. Pickup Interface.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/4. Soul Pickup Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/5. Soul and Gold Attributes.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/6. Enemies Spawning Souls.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/7. Dodge Animation.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/8. Dodge Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/9. Stamina.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/10. Section 21 Challenge.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "21. Souls and Stamina"
+            },
+            {
+                "Episodes": [
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/1. Animation Blueprint Templates.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/2. Raptor.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/3. Raptor Attacks.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/4. Raptor Attack Montage.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/5. Raptor Hit React.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/6. Raptor Sound Effects.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/7. Insect.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/8. Soul Drift.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/9. Assignment - New Enemies.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/10. Section 21 Challenge.mp4",
+                        "Progress": -1
+                    },
+                    {
+                        "Duration": -1,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/22. Multiple Types of Enemies/11. My Level and Course Conclusion.mp4",
+                        "Progress": -1
+                    }
+                ],
+                "SectionName": "22. Multiple Types of Enemies"
+            }
+        ],
+        "SeriesName": "Ben du orsch",
+        "SeriesPath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course"
+    },
+    {
+        "IconPath": "C:/Users/simim/Pictures/Fabi Rezeption/ein-mann-mit-einem-smartphone-telefonieren-zu-hause-mceknj.jpg",
+        "Sections": [
+            {
+                "Episodes": [
+                    {
+                        "Duration": 727,
+                        "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction/01. Introduction.mp4",
+                        "Progress": 727
                     }
                 ],
                 "SectionName": "01. Introduction"
@@ -15,24 +1247,24 @@
             {
                 "Episodes": [
                     {
-                        "Duration": 296896,
+                        "Duration": 2,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/01. Project Creation.mp4",
-                        "Progress": -1
+                        "Progress": 2
                     },
                     {
-                        "Duration": -1,
+                        "Duration": 2,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/02. Setting up Version Control.mp4",
-                        "Progress": -1
+                        "Progress": 2
                     },
                     {
-                        "Duration": -1,
+                        "Duration": 2,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/03. The Base Character Class.mp4",
-                        "Progress": -1
+                        "Progress": 2
                     },
                     {
-                        "Duration": -1,
+                        "Duration": 2,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/02. Project Creation/04. Player and Enemy Characters.mp4",
-                        "Progress": -1
+                        "Progress": 2
                     },
                     {
                         "Duration": -1,
@@ -1660,657 +2892,5 @@
         ],
         "SeriesName": "Top Down RPG",
         "SeriesPath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG"
-    },
-    {
-        "IconPath": "C:/Users/simim/Pictures/Camera Roll/WhatsApp Image 2021-07-18 at 22.18.44.jpeg",
-        "Sections": [
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/002 What is Unreal Engine_.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/003 The Epic Games Launcher.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/004 Stock or customized engine_.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/005 Downloading the stock engine.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/006 Downloading from source code.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/008 Downloading Visual Studio.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/010 Preparing Visual Studio.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/012 Compiling from source code.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/013 Version control.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/014 Preparing for version control.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/015 Adding your custom engine to version control.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/016 Basic terminology.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/017 Exploring the editor.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/018 C++.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/019 Blueprints.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/020 C++ or blueprints.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/01 Getting Started/021 Coding standard.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "01 Getting Started"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/001 Starting your first project.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/002 Creating your first project.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/003 Core class hierarchy.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/004 Creating a new class.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/005 Properties.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/006 Mobilizing our ball bearing.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/008 Editor naming conventions.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/009 Adding a debugging HUD.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/010 Arrays, an introduction.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/011 The actor life-cycle.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/012 The goal of the game.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/013 Constructing a level.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/014 The C++ _ blueprint divide.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/02 Metal in motion, part I/015 Wrapping up.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "02 Metal in motion, part I"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/001 Math primer.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/002 Evaluation order.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/003 Degrees and radians.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/004 Ratios.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/005 Trigonometry.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/006 Abs and Sign.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/007 Pow.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/008 Interpolation.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/009 Easing in and out.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/010 Time-based smoothing.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/011 Random number generation.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/012 Vectors.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/013 Dot products.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/014 Cross products.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/015 Quaternions.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/016 Rotators.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/017 Transforms.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/018 Coordinate spaces.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/019 Matrices.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/03 Game mathematics fundamentals/020 Wrapping up.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "03 Game mathematics fundamentals"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/001 Upping our game.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/002 Functions.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/003 Magnetism.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/004 The console.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/005 Finishing up.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/006 Where now_.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/007 Build configurations.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/008 Version control check-in process.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/04 Metal in motion, part II/009 Visual Studio version control integration.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "04 Metal in motion, part II"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/001 The road ahead.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/003 Physics primer.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/004 Creating your second project.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/005 Unreal Engine modifications.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/006 Downloading the GRIP goods.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/008 Skeletal meshes and physics assets.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/009 Exploration of the GRIP code.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/010 I am vehicle.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/011 Diagnostic checks.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/012 Raising the vehicle.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/013 Output logging.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/014 Fundamental physics forces and control.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/015 Class specifiers.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/016 Adding grip to GRIP, and vehicle animation.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/017 Improving the physics body setup.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/018 Vehicle drifting.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/05 Vehicle dynamics, part I/019 Physics materials and surface types.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "05 Vehicle dynamics, part I"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/001 Engine timing.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/002 Physics timing.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/003 Time dilation.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/004 Timers and time sharing.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/06 Time and timing/005 Floating point precision.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "06 Time and timing"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/07 Graphics/001 Textures, materials, particle systems and data assets.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/07 Graphics/002 Driving surfaces and wheel effects.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/07 Graphics/003 Vehicle impact effects.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "07 Graphics"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/08 Vehicle dynamics, part II/001 Automatic bidirectional traction control.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/08 Vehicle dynamics, part II/002 Vehicle dynamics amelioration.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/08 Vehicle dynamics, part II/003 CCD.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "08 Vehicle dynamics, part II"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/09 Audio/001 Sound waves, cues, classes and attenuation.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/09 Audio/002 Audio components and vehicle audio.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "09 Audio"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/001 Spline dependency.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/002 Nearest spline position determination.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/003 Where to go.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/005 Exercising control.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/006 More than just foot to the floor.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/007 The nature of attraction.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/10 Artificial intelligence/008 Collision avoidance.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "10 Artificial intelligence"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/001 Race position determination.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/002 Vehicle teleportation.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/003 Low speed hackery.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/11 Vehicle dynamics, part III/004 Airblades.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "11 Vehicle dynamics, part III"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/001 Pickups.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/002 The turbo.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/003 The gun.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/004 The missile.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/005 More missile.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/006 Missile in motion.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/007 The shield.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/12 Pickups/008 Bot combat training.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "12 Pickups"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/001 Constructing the camera.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/002 Racing the camera.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/003 Mounting the camera.mp4",
-                        "Progress": -1
-                    },
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/13 Camera work/004 Action camera essentials.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "13 Camera work"
-            },
-            {
-                "Episodes": [
-                ],
-                "SectionName": "14 Raising your game"
-            },
-            {
-                "Episodes": [
-                    {
-                        "Duration": -1,
-                        "FilePath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021/15 Bringing it all together/001 Your world, in your hands.mp4",
-                        "Progress": -1
-                    }
-                ],
-                "SectionName": "15 Bringing it all together"
-            }
-        ],
-        "SeriesName": "Pro Unreal Engine Coding",
-        "SeriesPath": "D:/Kurse/Udemy - Pro Unreal Engine Game Coding  062021"
     }
 ]

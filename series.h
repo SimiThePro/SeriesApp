@@ -46,6 +46,8 @@ protected:
 
 private slots:
     void on_pushButton_pressed();
+    void on_editSeries();
+
 
 private:
     Ui::Series *ui;
@@ -62,6 +64,8 @@ private:
 
     void SetButtonIcon(const QString& filename);
 
+    QAction* EditSeries;
+    void CreateMenu();
 
 };
 
@@ -100,49 +104,21 @@ private:
     QVector<QFileInfo> m_FileList;
     QList<class Episode*> m_Episodes;
 
+    void createActions();
+    QAction* FinishedWatching;
+    QAction* ResetProgress;
 
+    int m_pressedEpisodeIndex;
 
 private slots:
     void buttonPressed(class QAbstractButton *button);
-};
 
-//----------EPISODE----------
+    void on_FinishedWatching();
+    void on_ResetProgress();
 
-class Episode : public QObject{
-
-    Q_OBJECT
-public:
-    Episode(const QString& FilePath, class MainWindow* mainWindow);
-    Episode(const QString& FilePath, int progress, int duration, MainWindow* mainWindow);
-
-    QString getFilePath() const {return m_FileInfo.filePath();}
-    int getDuration() const {return m_duration;}
-    int getProgress() const {return m_progress;}
-    QString getEpisodeName() const {return m_EpisodeName;}
-
-
-    void setDuration(int newDuration) {m_duration = newDuration;}
-
-    void setJsonObject(const QJsonObject& newObject) {m_jsonObject = newObject;};
-    void setSection(Section* section) {m_Section = section;}
-
-    void UpdateValue();
-
-private:
-
-    MainWindow* m_MainWindow;
-
-    class Section* m_Section;
-
-    QString m_EpisodeName;
-
-    QFileInfo m_FileInfo;
-    int m_duration;
-    int m_progress;
-
-    QJsonObject m_jsonObject;
 
 
 };
+
 
 #endif // SERIES_H

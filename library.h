@@ -22,7 +22,7 @@ public:
 private:
     Ui::Library *ui;
 
-    int m_countElementsWidth, m_countElementsHeight;
+    int MaxRowElements = 3;
 
     class MainWindow* m_MainWindow;
 };

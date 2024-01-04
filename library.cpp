@@ -17,7 +17,7 @@ Library::Library(QWidget *parent) :
     ui->comboBox->addItem("Test");
     ui->comboBox->addItem("Ben");
 
-
+    MaxRowElements = 3;
 }
 
 Library::~Library()
@@ -27,12 +27,22 @@ Library::~Library()
 
 void Library::AddSeriesToLayout(Series* newSeries)
 {
-    ui->gridLayout->addWidget(newSeries);
+    int count = ui->gridLayout->count();
+    int row,column;
+
+    if (count != 0){
+        row = (std::floor(count / MaxRowElements));
+        column = (count % MaxRowElements);
+    }else {
+        row = 0;
+        column = 0;
+    }
+
+
+    ui->gridLayout->addWidget(newSeries,row,column,Qt::AlignLeft);
 }
 
 void Library::SeriesPressed(Series *pressedSeries)
 {
-
-
     m_MainWindow->SeriesPressed(pressedSeries);
 }

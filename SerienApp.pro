@@ -12,25 +12,32 @@ DEFINES += PROJECT_PATH=\"\\\"$${_PRO_FILE_PWD_}/\\\"\"
 
 SOURCES += \
     addseries.cpp \
+    custompushbutton.cpp \
+    episode.cpp \
     library.cpp \
     main.cpp \
     mainwindow.cpp \
     overview.cpp \
     series.cpp \
     seriesoverview.cpp \
-    videoplayer.cpp
+    videoplayer.cpp \
+    videowidget.cpp
 
 HEADERS += \
     addseries.h \
+    custompushbutton.h \
+    episode.h \
     library.h \
     mainwindow.h \
     overview.h \
     series.h \
     seriesoverview.h \
-    videoplayer.h
+    videoplayer.h \
+    videowidget.h
 
 FORMS += \
     addseries.ui \
+    episode.ui \
     library.ui \
     mainwindow.ui \
     overview.ui \

@@ -12,7 +12,8 @@ class AddSeries : public QDialog
     Q_OBJECT
 
 public:
-    explicit AddSeries(QWidget *parent = nullptr);
+    explicit AddSeries(QWidget *parent = nullptr, class Series* SeriesToEdit = nullptr);
+
     ~AddSeries();
 
 private slots:
@@ -28,6 +29,7 @@ private:
     class MainWindow* m_MainWindow;
 
     class Series* m_Series;
+    bool bEdited;
 };
 
 #endif // ADDSERIES_H
