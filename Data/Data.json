@@ -1,13 +1,15 @@
 [
     {
         "IconPath": "C:/Users/simim/Pictures/Meme/Untitled-2.png",
+        "LastEpisodePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/5. View Modes.mp4",
+        "LastWatched": "08.01.2024|22:21:27",
         "Sections": [
             {
                 "Episodes": [
                     {
                         "Duration": 594,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/1. Introduction.mp4",
-                        "Progress": 594
+                        "Progress": 482
                     },
                     {
                         "Duration": 394,
@@ -27,7 +29,7 @@
                     {
                         "Duration": 756,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/1. Getting Started/5. View Modes.mp4",
-                        "Progress": -1
+                        "Progress": 662
                     },
                     {
                         "Duration": -1,
@@ -1160,7 +1162,7 @@
                         "Progress": -1
                     },
                     {
-                        "Duration": -1,
+                        "Duration": 142,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 C++ The Ultimate Game Developer Course/21. Souls and Stamina/10. Section 21 Challenge.mp4",
                         "Progress": -1
                     }
@@ -1233,13 +1235,15 @@
     },
     {
         "IconPath": "C:/Users/simim/Pictures/Fabi Rezeption/ein-mann-mit-einem-smartphone-telefonieren-zu-hause-mceknj.jpg",
+        "LastEpisodePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction/01. Introduction.mp4",
+        "LastWatched": "08.01.2024|22:20:56",
         "Sections": [
             {
                 "Episodes": [
                     {
                         "Duration": 727,
                         "FilePath": "D:/Kurse/Udemy - Unreal Engine 5 - Gameplay Ability System - Top Down RPG/01. Introduction/01. Introduction.mp4",
-                        "Progress": 727
+                        "Progress": 275
                     }
                 ],
                 "SectionName": "01. Introduction"

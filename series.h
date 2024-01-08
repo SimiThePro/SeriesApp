@@ -8,6 +8,58 @@
 #include <QList>
 #include <QWidget>
 
+struct DateAndTime{
+
+    DateAndTime():Date(QDate::fromString("01.01.2000","dd.MM.yyyy")),Time(QTime::fromString("00:00:00","hh:mm:ss")){};
+    DateAndTime(DateAndTime* dat):Date(dat->Date),Time(dat->Time){}
+    DateAndTime(QDate date,QTime time):Date(date),Time(time){}
+    QDate Date;
+    QTime Time;
+
+    bool operator<(const DateAndTime& other) const {
+        // Compare dates first
+        if (Date < other.Date)
+            return true;
+        else if (Date > other.Date)
+            return false;
+
+        // If dates are equal, compare times
+        return Time < other.Time;
+    }
+
+    static DateAndTime* fromString(const QString& string){
+        if (string == "") return DateAndTime::Null();
+
+        DateAndTime* retValue = new DateAndTime();
+        retValue->Date = QDate::fromString(string.section('|',0,0),"dd.MM.yyyy");
+        retValue->Time = QTime::fromString(string.section('|',1,1),"hh:mm:ss");
+        return retValue;
+    }
+
+    static DateAndTime* Null(){
+        DateAndTime* retValue = new DateAndTime();
+        retValue->Date = QDate::fromString("01.01.2000","dd.MM.yyyy");
+        retValue->Time = QTime::fromString("00:00:00","hh:mm:ss");
+        return retValue;
+    }
+
+    static DateAndTime* Now(){
+        DateAndTime* retValue = new DateAndTime();
+        retValue->Date = QDate::currentDate();
+        retValue->Time = QTime::currentTime();
+        return retValue;
+    }
+
+    static bool isValid(DateAndTime* DaT){
+        return (DaT->toString() != "01.01.2000|00:00:00");
+    }
+
+    QString toString(){
+        return Date.toString("dd.MM.yyyy") + "|" + Time.toString("hh:mm:ss");
+    }
+
+
+};
 
 
 class QFileInfo;
@@ -21,7 +73,6 @@ class Series : public QWidget
 
 public:
     explicit Series(QWidget *parent = nullptr);
-    Series(QString SeriesPath, QString SeriesIconPath, QString SeriesName = "", QWidget *parent = nullptr);
     Series(const QString& SeriesName, const QString& SeriesPath, const QString& IconPath,QList<class Section*> sections, QWidget *parent = nullptr);
     ~Series();
 
@@ -35,13 +86,22 @@ public:
     QString getSeriesName() const;
     void setSeriesName(const QString &newSeriesName);
 
+    void setSeriesLastWatched(DateAndTime* lastWatched){m_LastWatched = lastWatched;}
+    DateAndTime* getSeriesLastWatched() const {return m_LastWatched;}
+
+    void setPathLastEpisodeWatched(const QString& Path){m_PathLastEpisodeWatched = Path;}
+    QString getPathLastEpisodeWatched() const {return m_PathLastEpisodeWatched;}
+
     QString PrintFiles();
 
     QList<class Section*> getSections() const {return m_Sections;}
 
     void MainWindowParent(class MainWindow* MW) {this->m_MainWindow = MW;}
 
+    void UpdateInFile();
     void SaveToFile();
+
+    class Episode* getEpisodeFromFilePath(const QString& Path);
 protected:
 
 private slots:
@@ -57,6 +117,8 @@ private:
     QString m_SeriesIconPath;
     QString m_SeriesPath;
     QString m_SeriesName;
+    DateAndTime* m_LastWatched;
+    QString m_PathLastEpisodeWatched;
 
     QList<class Section*> m_Sections;
 

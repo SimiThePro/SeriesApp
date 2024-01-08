@@ -2,7 +2,11 @@
 #include "mainwindow.h"
 #include "ui_overview.h"
 
+#include <QProgressBar>
+#include <QStackedLayout>
 #include <Series.h>
+#include <SeriesPreview.h>
+#include <qpushbutton.h>
 
 Overview::Overview(QWidget *parent) :
     QWidget(parent),
@@ -20,5 +24,13 @@ Overview::~Overview()
 
 void Overview::AddSeriesToLayout(Series* series)
 {
-    ui->Series->addWidget(series,0,Qt::AlignLeft);
+
+    SeriesPreview* sp = new SeriesPreview(series,m_MainWindow,this);
+
+    ui->Series->addWidget(sp,0,Qt::AlignLeft);
+}
+
+void Overview::on_PlayButton_pressed()
+{
+
 }

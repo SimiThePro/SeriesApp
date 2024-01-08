@@ -31,28 +31,6 @@ Series::Series(QWidget *parent) :
     CreateMenu();
 }
 
-Series::Series(QString SeriesPath, QString SeriesIconPath, QString SeriesName, QWidget *parent)
-    :QWidget(parent),
-    ui(new Ui::Series),
-    m_SeriesIconPath(SeriesIconPath)
-{
-    ui->setupUi(this);
-
-    m_MainWindow = qobject_cast<MainWindow*>(parent);
-
-
-    if (SeriesName.isEmpty()){
-        //TODO
-    }
-    else this->m_SeriesName = SeriesName;
-
-    setSeriesPath(SeriesPath);
-
-    ui->label->setText(SeriesName);
-
-    CreateMenu();
-}
-
 Series::Series(const QString &SeriesName, const QString &SeriesPath, const QString &IconPath, QList<Section *> sections, QWidget *parent)
     :
     QWidget(parent),
@@ -69,6 +47,10 @@ Series::Series(const QString &SeriesName, const QString &SeriesPath, const QStri
 
     m_SeriesIconPath = IconPath;
     setButtonImage(IconPath);
+
+    m_PathLastEpisodeWatched = "";
+    m_LastWatched = DateAndTime::Null();
+
     m_Sections = sections;
     for (auto& s : m_Sections){
         s->setSeries(this);
@@ -121,6 +103,38 @@ void Series::setSeriesName(const QString &newSeriesName)
     ui->label->setText(newSeriesName);
 }
 
+void Series::UpdateInFile()
+{
+    QJsonObject obj;
+    QString path;
+    QJsonValue newValue;
+
+    QJsonArray jsonArray = m_MainWindow->getSeriesJsonArray();
+
+    for (int i = 0; i < jsonArray.size(); ++i) {
+        QJsonObject seriesObject = jsonArray[i].toObject();
+        if (seriesObject["SeriesPath"].toString() == m_SeriesPath){
+            seriesObject["LastWatched"] = m_LastWatched->toString();
+            seriesObject["LastEpisodePath"] = m_PathLastEpisodeWatched;
+
+            jsonArray[i] = seriesObject;
+
+            QFile writeFile(static_cast<QString>(PROJECT_PATH) + "Data/Data.json");
+            if (!writeFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+                qDebug() << "Failed to open file for writing:" << writeFile.errorString();
+                return;
+            }
+
+            m_MainWindow->setSeriesJsonArray(jsonArray);
+
+            QJsonDocument updatedDoc(jsonArray);
+            writeFile.write(updatedDoc.toJson());
+            writeFile.close();
+            return;
+        }
+    }
+}
+
 void Series::SaveToFile()
 {
 
@@ -128,6 +142,8 @@ void Series::SaveToFile()
     SeriesEntry["SeriesName"] = m_SeriesName;
     SeriesEntry["SeriesPath"] = m_SeriesPath;
     SeriesEntry["IconPath"] = m_SeriesIconPath;
+    SeriesEntry["LastWatched"] = m_LastWatched->toString();
+    SeriesEntry["LastEpisodePath"] = m_PathLastEpisodeWatched;
 
     QJsonObject sectionObject;
     QJsonArray sectionsArray;
@@ -155,6 +171,19 @@ void Series::SaveToFile()
 
     m_MainWindow->AddToJSON(SeriesEntry);
 
+}
+
+Episode *Series::getEpisodeFromFilePath(const QString &Path)
+{
+    for (Section* section : m_Sections){
+        QList<Episode*> Episodes = section->getEpisodes();
+        for (Episode* episode : Episodes){
+            if (episode->getFilePath() == Path){
+                return episode;
+            }
+        }
+    }
+    return nullptr;
 }
 
 QString Series::getSeriesPath() const

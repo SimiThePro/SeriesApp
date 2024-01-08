@@ -19,9 +19,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,5">
    <item>
-    <layout class="QHBoxLayout" name="TopBar">
+    <layout class="QHBoxLayout" name="TopBar" stretch="0">
      <item>
       <widget class="QLineEdit" name="lineEdit">
        <property name="sizePolicy">
@@ -36,6 +36,12 @@
    </item>
    <item>
     <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
      <property name="font">
       <font>
        <pointsize>20</pointsize>
@@ -47,7 +53,14 @@
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="Series"/>
+    <layout class="QHBoxLayout" name="Series" stretch="">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+    </layout>
    </item>
   </layout>
  </widget>

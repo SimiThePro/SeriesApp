@@ -40,6 +40,7 @@ public:
 
     void UpdateValue();
 
+
 private:
     Ui::Episode *ui;
 
@@ -52,7 +53,6 @@ private:
     QFileInfo m_FileInfo;
     int m_duration;
     int m_progress;
-
     QJsonObject m_jsonObject;
 
     void InitializeUi();

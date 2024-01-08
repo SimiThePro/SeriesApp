@@ -2,6 +2,7 @@
 #include "mainwindow.h"
 #include "episode.h"
 #include "qwindow.h"
+#include "seriespreview.h"
 #include "ui_mainwindow.h"
 #include <Library.h>
 #include <QScrollArea>
@@ -10,7 +11,6 @@
 #include <AddSeries.h>
 #include <Series.h>
 #include <SeriesOverview.h>
-#include <VideoPlayer.h>
 #include <QUrl>
 #include <QJsonDocument>
 #include <QJsonArray>
@@ -46,11 +46,15 @@ MainWindow::MainWindow(QWidget *parent)
 
     m_MPVVideoPlayer = new QProcess;
 
+    AddAlreadyWatchedSeriesToPreview();
 
 }
 
 MainWindow::~MainWindow()
 {
+    for (auto e : m_pendingChangedSeries){
+        e->UpdateInFile();
+    }
 
     for (auto e : m_pendingChangedEpisodes){
         e->UpdateValue();
@@ -79,6 +83,11 @@ void MainWindow::SeriesPressed(Series *pressedSeries)
 void MainWindow::EpisodeSelected(Episode* episode)
 {
     hide();
+
+
+    episode->getSection()->getSeries()->setPathLastEpisodeWatched(episode->getFilePath());
+    episode->getSection()->getSeries()->setSeriesLastWatched(DateAndTime::Now());
+    AddToPending(episode->getSection()->getSeries());
 
     AddToPending(episode);
     m_currentEpisode = episode;
@@ -129,6 +138,9 @@ void MainWindow::LoadFromFileAndAddSeries()
         QString SeriesName = seriesObject["SeriesName"].toString();
         QString IconPath = seriesObject["IconPath"].toString();
         QString SeriesPath = seriesObject["SeriesPath"].toString();
+        DateAndTime* LastWatched = DateAndTime::fromString(seriesObject["LastWatched"].toString());
+        QString PathLastEpisodeWatched = seriesObject["LastEpisodePath"].toString();
+
         // Set Course Path
 
         if (seriesObject.contains("Sections") && seriesObject["Sections"].isArray()){
@@ -160,9 +172,31 @@ void MainWindow::LoadFromFileAndAddSeries()
 
         SeriesJsonArray.append(seriesObject);
         Series* loadedSeries = new Series(SeriesName,SeriesPath,IconPath,sections,this);
+        loadedSeries->setPathLastEpisodeWatched(PathLastEpisodeWatched);
+        loadedSeries->setSeriesLastWatched(LastWatched);
         m_SeriesList.append(loadedSeries);
         LibraryWidget->AddSeriesToLayout(loadedSeries);
+
     }
+}
+
+void MainWindow::AddAlreadyWatchedSeriesToPreview()
+{
+    QList<Series*> watchedSeries = {};
+    for (Series* series : m_SeriesList){
+        if (series->getPathLastEpisodeWatched() != ""){
+            watchedSeries.append(series);
+        }
+    }
+
+    std::sort(watchedSeries.begin(),watchedSeries.end(),[&](Series* a, Series* b){
+        return a->getSeriesLastWatched() > b->getSeriesLastWatched();
+    });
+
+    for (Series* series : watchedSeries){
+        OverviewWidget->AddSeriesToLayout(series);
+    }
+
 }
 
 void MainWindow::SimpleUpdateSeries(Series *UpdatedSeries)
@@ -219,23 +253,13 @@ void MainWindow::AddToPending(Episode *pendingEpisode)
     m_pendingChangedEpisodes.append(pendingEpisode);
 }
 
-void MainWindow::MakeVideoPlayerFullscreen()
+void MainWindow::AddToPending(Series *pendingSeries)
 {
-
-    return;
-    // Show the video widget on a specific screen in full-screen mode
-    QList<QScreen*> screens = QApplication::screens();
-    if (screens.size() > 1) { // If more than one screen is available
-        // Assuming the second screen is the desired screen (index 1)
-        QScreen *desiredScreen = screens.at(1);
-        m_VideoPlayerWidget->setWindowState(Qt::WindowFullScreen); // Set the widget in full-screen mode
-        m_VideoPlayerWidget->setGeometry(desiredScreen->geometry()); // Set the widget geometry to cover the screen
-
-
-    }
-
-    m_VideoPlayerWidget->show(); // Show the video widget
+    if (m_pendingChangedSeries.contains(pendingSeries)) return;
+    m_pendingChangedSeries.append(pendingSeries);
 }
+
+
 
 void MainWindow::ReturnToSeriesOverviewWidget()
 {
@@ -267,7 +291,7 @@ void MainWindow::on_AddButton_pressed()
 
 void MainWindow::on_VideoPlayerButton_pressed()
 {
-    ui->stackedWidget->setCurrentWidget(m_VideoPlayerWidget);
+
 }
 
 void MainWindow::on_MPVVideoPlayer_closed(int,QProcess::ExitStatus)
@@ -317,7 +341,11 @@ void MainWindow::on_MPVVideoPlayer_closed(int,QProcess::ExitStatus)
     m_currentEpisode->setDuration(duration);
     m_currentEpisode->setProgess(time);
 
+    // Do crash wenn auf Episode gedruckt werd, de vorher no nit ungschaug werd. Muas no schaugen why
+    m_pressedSeriesPreview->setLastWatchedEpisode(m_currentEpisode);
+
     m_SeriesOverviewWidget->Update(m_currentEpisode);
+    m_pressedSeriesPreview->UpdateProgressBar();
 
     showNormal();
 

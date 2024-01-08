@@ -16,7 +16,6 @@ Episode::Episode(const QString &FilePath, MainWindow *mainWindow)
     m_MainWindow = mainWindow;
     m_duration = -1; //Set -1 so we know that it is not initialized
     m_progress = -1;
-    //InitializeUi();
 }
 
 Episode::Episode(const QString &FilePath, int progress, int duration, MainWindow *mainWindow)
@@ -27,7 +26,6 @@ Episode::Episode(const QString &FilePath, int progress, int duration, MainWindow
     m_progress = progress;
     m_duration = duration;
     m_MainWindow = mainWindow;
-    //InitializeUi();
 }
 
 Episode::~Episode(){

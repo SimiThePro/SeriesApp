@@ -19,6 +19,8 @@ public:
 
 protected:
 
+public slots:
+    void on_PlayButton_pressed();
 
 
 private:

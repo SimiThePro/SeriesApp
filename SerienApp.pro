@@ -20,8 +20,7 @@ SOURCES += \
     overview.cpp \
     series.cpp \
     seriesoverview.cpp \
-    videoplayer.cpp \
-    videowidget.cpp
+    seriespreview.cpp
 
 HEADERS += \
     addseries.h \
@@ -32,18 +31,17 @@ HEADERS += \
     overview.h \
     series.h \
     seriesoverview.h \
-    videoplayer.h \
-    videowidget.h
+    seriespreview.h
 
 FORMS += \
+    SeriesPreview.ui \
     addseries.ui \
     episode.ui \
     library.ui \
     mainwindow.ui \
     overview.ui \
     series.ui \
-    seriesoverview.ui \
-    videoplayer.ui
+    seriesoverview.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

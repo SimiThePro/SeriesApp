@@ -33,11 +33,13 @@ public: //functions
     class Overview* getOverviewWidget() const {return OverviewWidget;}
     class SeriesOverview* getSeriesOverviewWidget() const {return m_SeriesOverviewWidget;}
     QVector<class Series*> getSeriesList() const {return m_SeriesList;}
+    void setPressedSeriesPreview(class SeriesPreview* pressedSeriesPreview) {m_pressedSeriesPreview = pressedSeriesPreview;}
 
     void AddSeries(Series* newSeries);
     void SeriesPressed(Series* pressedSeries);
     void EpisodeSelected(class Episode* episode);
     void LoadFromFileAndAddSeries();
+    void AddAlreadyWatchedSeriesToPreview();
     void SimpleUpdateSeries(Series* UpdatedSeries); //Updates Icon and Name
 
     void AddToJSON(QJsonObject newObject);
@@ -46,8 +48,8 @@ public: //functions
     void setSeriesJsonArray(const QJsonArray& newJsonArray) {SeriesJsonArray = newJsonArray;}
 
     void AddToPending(Episode* pendingEpisode);
+    void AddToPending(Series* pendingSeries);
 
-    void MakeVideoPlayerFullscreen();
     void ReturnToSeriesOverviewWidget();
 
 public slots:
@@ -70,6 +72,9 @@ private:
     class Episode* m_currentEpisode;
     QList<class Series*> m_SeriesList;
     QList<class Episode*> m_pendingChangedEpisodes;
+    QList<class Series*> m_pendingChangedSeries;
+    class SeriesPreview* m_pressedSeriesPreview;
+
     QJsonArray SeriesJsonArray;
 };
 
