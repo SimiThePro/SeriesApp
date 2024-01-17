@@ -52,6 +52,7 @@ public: //functions
 
     void ReturnToSeriesOverviewWidget();
 
+    void AddToSeriesPreview(class SeriesPreview* pv);
 public slots:
 
 private slots:
@@ -73,6 +74,7 @@ private:
     QList<class Series*> m_SeriesList;
     QList<class Episode*> m_pendingChangedEpisodes;
     QList<class Series*> m_pendingChangedSeries;
+    QList<class SeriesPreview*> m_SeriesPreviews;
     class SeriesPreview* m_pressedSeriesPreview;
 
     QJsonArray SeriesJsonArray;

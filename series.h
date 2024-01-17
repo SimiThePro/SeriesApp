@@ -55,6 +55,9 @@ struct DateAndTime{
     }
 
     QString toString(){
+        if (!Date.isValid() || !Time.isValid()){
+            return Null()->toString();
+        }
         return Date.toString("dd.MM.yyyy") + "|" + Time.toString("hh:mm:ss");
     }
 
@@ -97,6 +100,8 @@ public:
     QList<class Section*> getSections() const {return m_Sections;}
 
     void MainWindowParent(class MainWindow* MW) {this->m_MainWindow = MW;}
+
+    void SetupSeries();
 
     void UpdateInFile();
     void SaveToFile();

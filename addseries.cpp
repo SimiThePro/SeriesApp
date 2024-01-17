@@ -87,6 +87,8 @@ void AddSeries::on_buttonBox_accepted()
     m_Series->MainWindowParent(m_MainWindow);
 
     if (!bEdited){
+        m_Series->setSeriesLastWatched(DateAndTime::Null());
+
         QFile file(static_cast<QString>(PROJECT_PATH) + "Data/Data.json");
         if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
             qDebug() << "Failed to open file for reading:" << file.errorString();
@@ -120,6 +122,7 @@ void AddSeries::on_buttonBox_accepted()
                 }
             }
         }
+        m_Series->SetupSeries();
         m_MainWindow->AddSeries(m_Series);
     }
     else{

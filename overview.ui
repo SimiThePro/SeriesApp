@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>802</width>
-    <height>536</height>
+    <width>771</width>
+    <height>513</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -20,6 +20,9 @@
    <string>Form</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,5">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetDefaultConstraint</enum>
+   </property>
    <item>
     <layout class="QHBoxLayout" name="TopBar" stretch="0">
      <item>
@@ -53,7 +56,7 @@
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="Series" stretch="">
+    <layout class="QHBoxLayout" name="Series">
      <property name="spacing">
       <number>6</number>
      </property>

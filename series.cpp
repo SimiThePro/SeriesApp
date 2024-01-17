@@ -103,6 +103,16 @@ void Series::setSeriesName(const QString &newSeriesName)
     ui->label->setText(newSeriesName);
 }
 
+void Series::SetupSeries()
+{
+    for (auto& s : m_Sections){
+        s->setSeries(this);
+        for (auto& e : s->getEpisodes()){
+            e->setSection(s);
+        }
+    }
+}
+
 void Series::UpdateInFile()
 {
     QJsonObject obj;
@@ -267,8 +277,6 @@ void Series::setButtonImage(const QString &filename)
 {
     QString filenamecopy;
     QString stylesheet = ui->pushButton->styleSheet();
-
-
 
     if (stylesheet.contains("border-image: url(")){
 

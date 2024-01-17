@@ -29,6 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+
     OverviewWidget = new Overview(this);
     LibraryWidget = new Library(this);
     m_SeriesOverviewWidget = new SeriesOverview(this);
@@ -47,6 +48,18 @@ MainWindow::MainWindow(QWidget *parent)
     m_MPVVideoPlayer = new QProcess;
 
     AddAlreadyWatchedSeriesToPreview();
+
+    DateAndTime dt1 = DateAndTime::Now();
+    DateAndTime dt2 = DateAndTime::fromString("01.01.2023|12:30:00");
+
+    qDebug() << "DateAndTime 1: " << dt1.toString();
+    qDebug() << "DateAndTime 2: " << dt2.toString();
+
+    if (dt1 < dt2) {
+        qDebug() << "DateAndTime 1 is earlier than DateAndTime 2";
+    } else {
+        qDebug() << "DateAndTime 1 is not earlier than DateAndTime 2";
+    }
 
 }
 
@@ -185,13 +198,13 @@ void MainWindow::AddAlreadyWatchedSeriesToPreview()
     QList<Series*> watchedSeries = {};
     for (Series* series : m_SeriesList){
         if (series->getPathLastEpisodeWatched() != ""){
-            watchedSeries.append(series);
+            if (watchedSeries.empty() || *series->getSeriesLastWatched() < *watchedSeries.back()->getSeriesLastWatched()){
+                watchedSeries.append(series);
+            }
+            else watchedSeries.insert(0,series);
+
         }
     }
-
-    std::sort(watchedSeries.begin(),watchedSeries.end(),[&](Series* a, Series* b){
-        return a->getSeriesLastWatched() > b->getSeriesLastWatched();
-    });
 
     for (Series* series : watchedSeries){
         OverviewWidget->AddSeriesToLayout(series);
@@ -264,6 +277,11 @@ void MainWindow::AddToPending(Series *pendingSeries)
 void MainWindow::ReturnToSeriesOverviewWidget()
 {
     ui->stackedWidget->setCurrentWidget(m_SeriesOverviewWidget);
+}
+
+void MainWindow::AddToSeriesPreview(SeriesPreview *pv)
+{
+    m_SeriesPreviews.append(pv);
 }
 
 
@@ -340,8 +358,24 @@ void MainWindow::on_MPVVideoPlayer_closed(int,QProcess::ExitStatus)
 
     m_currentEpisode->setDuration(duration);
     m_currentEpisode->setProgess(time);
+    m_currentEpisode->UpdateValue();
 
-    // Do crash wenn auf Episode gedruckt werd, de vorher no nit ungschaug werd. Muas no schaugen why
+    //Checks if SeriespReview already exists and if not, add it
+    bool found = false;
+    for (SeriesPreview* preview : m_SeriesPreviews){
+        if (preview->getSeries() == m_currentEpisode->getSection()->getSeries()){
+            m_pressedSeriesPreview = preview;
+            found = true;
+        }
+    }
+    if (!found){
+        OverviewWidget->AddSeriesToLayout(m_currentEpisode->getSection()->getSeries());
+        m_pressedSeriesPreview = m_SeriesPreviews.back();
+        m_pressedSeriesPreview->setSeries(m_currentEpisode->getSection()->getSeries());
+    }
+
+    OverviewWidget->SetSeriesPreviewPositionToFront(m_pressedSeriesPreview);
+
     m_pressedSeriesPreview->setLastWatchedEpisode(m_currentEpisode);
 
     m_SeriesOverviewWidget->Update(m_currentEpisode);

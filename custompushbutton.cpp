@@ -23,3 +23,10 @@ void CustomPushButton::mousePressEvent(QMouseEvent *e)
     }
     emit btnGroup->buttonPressed(this);
 }
+
+void CustomPushButton::enterEvent(QEnterEvent *event)
+{
+    if (showHover){
+        qInfo() << "Hovering";
+    }
+}

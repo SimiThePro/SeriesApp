@@ -71,8 +71,11 @@ CMakeLists.txt.user*
 # Binaries
 # --------
 *.dll
-*.exe
-Data.json*pro.user
+*.exe
+*.json
+
+*.bak
+*pro.user
 =======
 # This file is used to ignore files which are generated
 # ----------------------------------------------------------------------------

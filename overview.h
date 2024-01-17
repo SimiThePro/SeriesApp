@@ -17,6 +17,7 @@ public:
 
     void AddSeriesToLayout(class Series* series);
 
+    void SetSeriesPreviewPositionToFront(class SeriesPreview* overview);
 protected:
 
 public slots:
